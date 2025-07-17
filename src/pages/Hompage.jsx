@@ -3,16 +3,11 @@ import Loader from '../ui/Loader';
 
 
 const Hero = lazy(() => import('../components/Hero'));
-const YogaType = lazy(() => import('../components/YogaTypes/YogaType'));
-const Ypfaquotes = lazy(() => import('../components/Ypfaquotes'));
-const Whyyoga = lazy(() => import('../components/whyyoga/Whyyoga'));
-const Feraturecourse = lazy(() => import('../components/Featuredcoourses/Feraturecourse'));
-const Gallery = lazy(() => import('../components/Gallery'));
-const Testimonials = lazy(() => import('../components/testimonials/Testimonails'));
-const Teams = lazy(() => import('../components/Team/Teams'));
-const VideoSection = lazy(() => import('../components/Videosection'));
 import Popularlocations from '../components/popularlocation/Popularlocations';
 import TravelBanner from '../components/TravelBanner';
+import HillStation from '../components/popularlocation/HillstationsOffbeat';
+import Wildlife from '../components/popularlocation/Wildlife';
+import OffbeatTrek from '../components/popularlocation/OffbeatTrek';
 
 const Hompage = () => {
   return (
@@ -20,19 +15,10 @@ const Hompage = () => {
       <div className=''>
         <Hero />
         <Popularlocations />
-          <TravelBanner />
-        
-     
-        {/* <YogaType />
-        <Ypfaquotes />
-        <Whyyoga />
-        <div className='w-full mx-auto grid place-items-center bg-[#F5F0E3] py-10'>
-          <Feraturecourse />
-        </div>
-        <VideoSection />
-        <Gallery />
-        <Teams />
-        <Testimonials /> */}
+        <HillStation />
+        <TravelBanner />
+        <Wildlife />
+        <OffbeatTrek />
       </div>
     </Suspense>
   );

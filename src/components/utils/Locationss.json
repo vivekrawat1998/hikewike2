@@ -1,0 +1,982 @@
+{
+  "trip_collection": {
+    "name": "20\u2011Spot Uttarakhand Explorer",
+    "per_person_estimated_cost_per_trip": "\u20b95,000\u201310,000",
+    "trips": [
+      {
+        "id": 1,
+        "name": "Nainital",
+        "category": "Popular Location",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi early morning \u2192 reach by noon",
+              "Check-in and lunch",
+              "Boat ride on Naini Lake",
+              "Evening Mall Road & Naina Devi Temple visit"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Cable car to Snow View Point",
+              "Explore Eco Cave Gardens",
+              "Return to Delhi by evening"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b97,500",
+        "images": [
+          "https://stampedmoments.com/wp-content/uploads/2022/09/boating-naini-lake.jpg",
+          "https://www.stayvista.com/blog/wp-content/uploads/2024/07/19421484519_dd4e3f4009_b-1.jpg",
+          "https://www.swantour.com/blogs/wp-content/uploads/2018/12/Nainital-Lake.jpg",
+          "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/dwc599ehnok1bqguq7rp.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/80/d2/94/bar-be-que.jpg?w=1200&h=-1&s=1"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Mussoorie",
+        "category": "Popular Location",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Morning drive from Delhi \u2192 Mussoorie",
+              "Stroll Mall Road & Gun Hill ride",
+              "Evening at Lal Tibba viewpoint"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visit Kempty Falls",
+              "Camel\u2019s Back Road walk",
+              "Return to Delhi by night"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,800",
+        "images": [
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1746526797mussorroe.jpg",
+          "https://clubmahindra.gumlet.io/blog/media/section_images/shuttersto-65eea6c9f8abbd6.jpg?w=376&dpr=2.6",
+          "https://lp-cms-production.imgix.net/2019-06/GettyImages-450780651_full.jpg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges",
+          "https://mussoorietourism.co.in/images/places-to-visit/header/kempty-falls-mussoorie-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQ09uHKUL1jzlgx71YQkD90y4uOaaf4Cctg&s"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Rishikesh",
+        "category": "Popular Location",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi \u2192 reach Rishikesh by afternoon",
+              "Check-in & evening Ganga Aarti at Triveni Ghat"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Morning yoga session",
+              "River rafting (optional)",
+              "Cross Laxman & Ram Jhula",
+              "Evening caf\u00e9 visit in Tapovan"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visit Beatles Ashram",
+              "Beach visit & local shopping",
+              "Return to Delhi late evening"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,500",
+        "images": [
+          "https://s7ap1.scene7.com/is/image/incredibleindia/1-triveni-ghat-rishikesh-uttarakhand-2-city-hero?qlt=82&ts=1726646286991",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trayambakeshwar_Temple_VK.jpg/1200px-Trayambakeshwar_Temple_VK.jpg",
+          "https://s7ap1.scene7.com/is/image/incredibleindia/laxman%20jhula-rishikesh-uttrakhand-hero?qlt=82&ts=1726646312953",
+          "https://s3.india.com/wp-content/uploads/2024/05/Feature-Image_-Rishikesh.jpg",
+          "https://www.easeindiatrip.com/blog/wp-content/uploads/2025/01/Rishikesh-Visit-in-February.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Haridwar",
+        "category": "Popular Location",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Haridwar",
+              "Check-in & temple visits (Mansa Devi, Chandi Devi)",
+              "Evening Ganga Aarti at Har-Ki-Pauri"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Boat ride on Ganges",
+              "Local market exploration",
+              "Return to Delhi evening"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b94,900",
+        "images": [
+          "https://clubmahindra.gumlet.io/blog/images/haridwar-image.jpg?w=376&dpr=2.6",
+          "https://cdn.prod.website-files.com/6364d88dd010ce5c6f8aa8fc/6780d389efdb44cce38f313c_Best_Place_to_Stay_in_Haridwar3_88e480429a.webp",
+          "https://www.pilgrimagetour.in/blog/wp-content/uploads/2024/05/Ganga-Ghats-at-Haridwar.jpg",
+          "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fp9xy2zekhmktw0w3fhc/Haridwar%20City%20Exploration%20with%20Ganga%20Aarti%20Ceremony.jpg",
+          "https://oneday.tours/wp-content/uploads/one-day-haridwar-and-rishikesh-local-sightseeing-tour-package-private-cab-header.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Dehradun",
+        "category": "Popular Location",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Transfer Delhi \u2192 Dehradun",
+              "Visit Robber\u2019s Cave & Buddha Temple",
+              "Evening at Paltan Bazaar"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Explore Sahastradhara & FRI",
+              "Shopping and return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,800",
+        "images": [
+          "https://www.jaypeehotels.com/blog/wp-content/uploads/2024/09/Blog-2-scaled.jpg",
+          "https://s3.india.com/wp-content/uploads/2024/03/Feature-Image_-Discovering-Dehradun.jpg##image/jpg",
+          "https://www.namastedehradun.com/wp-content/uploads/2013/02/musoorie1.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/cb/20/4b/hotel-facade.jpg?w=1200&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/48/a7/d7/regenta-lp-vilas-dehradun.jpg?w=1200&h=-1&s=1"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tungnath & Chandrashila",
+        "category": "Popular Location",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Chopta",
+              "Short nature trail around Chopta"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Trek Chopta \u2192 Tungnath temple \u2192 Chandrashila summit",
+              "Sunrise at Chandrashila, return trek"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Breakfast in Chopta",
+              "Return Delhi via Dehradun"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,800",
+        "images": [
+          "https://himalayandaredevils.com/storage/uploads/672db16bedb0b.jpg",
+          "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1481019868/DO_NOT_USE_DISCOVER_INDIA_EDITORIAL/Chopta_Blog1.jpg",
+          "https://www.hotelbhanupalace.com/rudraprayag/wp-content/uploads/2024/06/chandrashila-peak-5.jpg",
+          "https://travelconnection.co.in/wp-content/uploads/2021/02/cover_268559277_1255941251557904_6864788766923624034_n__01.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6LRCOTIPVpsxYftHgmC7djght-pQbZg5j2g&s"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Lansdowne",
+        "category": "Hill Station Offbeat",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Lansdowne drive",
+              "Stroll Garhwali Market",
+              "Sunset at Tip N Top"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Walk the oak-pine trails",
+              "Visit War Memorial",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,000",
+        "images": [
+          "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20210324160057/20180526_172401_HDR-1024x576.jpg",
+          "https://s7ap1.scene7.com/is/image/incredibleindia/tarkeshwar-mahadev-temple-lansdowne-uttarakhand?qlt=82&ts=1727354779371",
+          "https://www.homestaysofindia.com/wp-content/uploads/2022/08/Solitary-Nook-Homestay-Jaiharikhal-1-Lansdowne.jpg",
+          "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/16/daab6ad2893823b1d64b32309aa94f4a_1000x1000.jpg",
+          "https://images.trvl-media.com/lodging/32000000/31360000/31354700/31354655/fa0a09ee.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Mukteshwar",
+        "category": "Hill Station Offbeat",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Mukteshwar drive",
+              "Chauli Ki Jaali cliff walk at sunset"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Sunrise from Himalayan Outlook Point",
+              "Nature walks & return Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,500",
+        "images": [
+          "https://www.gujaratexpert.com/blog/wp-content/uploads/2019/10/Chauthi-Ki-Jali.jpg",
+          "https://firstrek.in/blog/wp-content/uploads/2024/02/Mukteshwar-Tourism.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSiudSUDGwuBCnX1XGad9zmnqN6IjAhcBnJg&s",
+          "https://pix10.agoda.net/hotelImages/690/6908201/6908201_19031915560073099257.jpg?ca=8&ce=1&s=702x392",
+          "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/06/29112201/Mukteshwar-1600x900.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Ranikhet",
+        "category": "Hill Station Offbeat",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi \u2192 Ranikhet",
+              "Jhula Devi Temple & Chaubatia orchards tour"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Sunrise at Golf Course",
+              "Drive back to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,000",
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwQ-jV0fS8QwLi25VWU0ahRxIi2Gyf4ntc6g&s",
+          "https://www.noblehousetours.com/wp-content/uploads/2017/05/ranikhet-uttarakhand.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabop3-4YGkCPhTTvwVNMaet8D8jrfu68bUg&s",
+          "https://www.exoticmiles.com/cities/ranikhet/",
+          "https://rishikeshdaytour.com/blog/wp-content/uploads/2019/10/Ranikhet-A-Serene-Town-In-The-Lap-Of-Nature.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Kausani",
+        "category": "Hill Station Offbeat",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Kausani",
+              "Sunset from Himalayan viewpoint"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Sunrise with panoramic Himalayan view",
+              "Local walks & return Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,500",
+        "images": [
+          "https://images.moneycontrol.com/static-mcnews/2024/11/20241113042930_1-kausani.jpg?impolicy=website&width=1600&height=900",
+          "https://www.nainitalcorbetttourism.com/images/kausani-tourism/kausani-tourism-excursion.jpg",
+          "https://discoverwithdheeraj.com/wp-content/uploads/2014/11/Kausani-Snowfall.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB-oGuRJGy8fzWhE9cT3ZzXJKmiY3mUFMWVg&s",
+          "https://gokeys.in/wp-content/uploads/2022/03/KAUSANI.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Chopta",
+        "category": "Popular Location",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Chopta",
+              "Deoria Tal trek & lake exploration"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visit local meadows & return Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,000",
+        "images": [
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1745916342a5160ff72b8591a242f1fe76dc5fe7f3.jpg",
+          "https://www.manchalamushafir.com/wp-content/uploads/2023/10/chopta-image.jpg",
+          "https://triprega.com/images/tours/auli-hill-station.jpg",
+          "https://www.chardhamtour.in/wp-content/uploads/2014/03/Chopta-during-april-month.webp",
+          "https://www.chardhamtour.in/wp-content/uploads/2014/03/Chopta-during-april-month.webp"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Jim Corbett National Park",
+        "category": "Wildlife",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Corbett",
+              "Evening jeep safari"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Morning safari",
+              "Birdwatching walk & return Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b98,000",
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHADcC9ENOTKSKmsDwxgg1MpEpxnkxnmKJ_A&s",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/5e/4a/00/jim-corbett-national.jpg?w=900&h=500&s=1",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8c236Kl6RQi7XVQahuZ0hnVEGcirwY5ufMQ&s",
+          "https://corbettparkonline.com/wp-content/uploads/elementor/thumbs/Corbett_Park_Elephants-p7odwchhcotwf9m3po96z0357wdfwaeaazn8kqo3o4.jpg",
+          "https://travelthruhistory.com/wp-content/uploads/2020/07/Bengal_Tiger_in_Jim_Corbett_National_Park.jpg"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Rajaji National Park",
+        "category": "Wildlife",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Rajaji",
+              "Evening sunset safari"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Morning jungle safari",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b97,000",
+        "images": [
+          "https://www.rajajinationalpark.co.in/images/elephant_familyn.jpg",
+          "https://www.jeepsafarirajajinationalpark.com/blog/wp-content/uploads/2024/08/package-1-1.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-pxdN5190ccWthr2SYhLh5P6iAxLboRZCJQ&s",
+          "https://rishikeshdaytour.com/blog/wp-content/uploads/2021/01/Rajaji-National-Park-the-Kingdom-of-the-Elephant.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxsoflaoQaTxO9RPjZaNXZDcynoSl-orFzng&s"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Munsiyari",
+        "category": "Offbeat Trek",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Munsiyari via Kathgodam/Almora",
+              "Local village walk"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Short trek to Khaliya Top or local herbs farm"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Scenic stretches & return hike",
+              "Drive back towards Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b99,000",
+        "images": [
+          "https://t.eucdn.in/tourism/lg/munsiyari-2563173.webp",
+          "https://www.chardhamtours.in/gallery/cityImage/1463050732_nanda.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OUQwv-06sa_wDCAgzw1_8psNQ9Tp3Lf7pg&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6LWPu5qErJbYqCTuXg5rFyyd2Cf6cynoe-w&s",
+          "https://curlytales.com/wp-content/uploads/2023/10/Munsiyari.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Khirsu",
+        "category": "Offbeat Village",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Khirsu drive",
+              "Birdwatching at sunrise point"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Forest trails exploration",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,000",
+        "images": [
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1746513945Khirsu-snow.jpg",
+          "https://www.india.com/wp-content/uploads/2021/01/18e424c3f49bd25d78a480746c436072.jpg",
+          "https://img.traveltriangle.com/blog/wp-content/uploads/2021/01/Khirsu-Village.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/50/bc/ac/khirsu-sightseeing.jpg?w=1200&h=-1&s=1",
+          "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/01/khirsu-1610209568.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "name": " ",
+        "category": "Offbeat Village",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Nainital \u2192 Pangot",
+              "Evening forest walk"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Early birdwatching at Kilbury Sanctuary",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,000",
+        "images": [
+          "https://wandersky.in/wp-content/uploads/2023/09/2-1.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShcEC5P3ZRyX44RbguH4o2eDt5-uHTTiZizw&s",
+          "https://gos3.ibcdn.com/f990e8bc062411eab13d0242ac110002.jpg",
+          "https://pangot.com/wp-content/uploads/2020/02/DSC_0074.jpg",
+          "https://media.easemytrip.com/media/hotel/shl-2301319352272/common/commonof5sit.jpg"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Kanatal / Chakrata",
+        "category": "Offbeat Hill Station",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Kanatal",
+              "Sunset waterfall trek"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Forest exploration & return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,500",
+        "images": [
+          "https://euttarakhandpackage.com/wp-content/uploads/2019/07/h-3.jpg",
+          "https://dynamic.tourtravelworld.com/package-images/photo-small/dir_54/1617152/407903.jpg",
+          "https://kanatal.corporateeventplanner.in/storage/resort_camps_banner/66b07f2892193.jpg",
+          "https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_700/v1689597927/bbj/mkelj1w0xvq696ltfl9o.jpg",
+          "https://www.himalayanmoments.com/image/display?image=aHR0cHM6Ly93d3cuaGltYWxheWFubW9tZW50cy5jb20vZ3ZhX2Fzc2V0cy9wYWNrYWdlcy8xMTI5LzE1NDkxMTI0MTlfQ2hha3JhdGE0LmpwZyZ3PTQ2MiZoPTI2NA=="
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Kedarnath",
+        "category": "Popular Location",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi \u2192 Haridwar \u2192 Gaurikund",
+              "Evening rest in Gaurikund"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Trek Gaurikund \u2192 Kedarnath Temple",
+              "Evening aarti"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Return trek to Gaurikund",
+              "Drive back towards Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b910,000",
+        "images": [
+          "https://alotusinthemud.com/wp-content/uploads/2024/02/lead-pic-temple-and-snow-mountains.jpg",
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_1736325021Kedarnath_Temple.jpg",
+          "https://www.chardhamtour.in/wp-content/uploads/2020/10/chardham-camp-guptakashi.jpg",
+          "https://r1imghtlak.mmtcdn.com/699678f9-65f1-4542-ac87-76f513ec15ae.webp?output-quality=75&downsize=328:180&output-format=jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZkmj9bW_hft-L_Kfw40uIxDCxiPySRrMRQ&s"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Badrinath",
+        "category": "Popular Location",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Joshimath \u2192 Badrinath",
+              "Evening darshan at Badrinath Temple"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Mana village visit",
+              "Drive back towards Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b99,000",
+        "images": [
+          "https://www.chardhamplan.com/images/Badrinath-place-to-visit.png",
+          "https://firstrek.in/blog/wp-content/uploads/2024/02/Badrinath-tourism-with-Firstrek.jpg",
+          "https://firstrek.in/blog/wp-content/uploads/2024/02/Badrinath-tourism-with-Firstrek.jpg",
+          "https://majesticjourney.in/wp-content/uploads/2022/07/mana-village.png",
+          "https://www.chardhampackage.com/img/chardham-packages/badrinath-destinations/mana-village-badrinath.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Yamunotri & Gangotri",
+        "category": "Popular Location",
+        "duration_days": 4,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Barkot/Yamunotri base",
+              "Local temple visit"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Yamunotri trek and darshan",
+              "Return to base"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Drive to Uttarkashi/Gangotri base",
+              "Evening rest"
+            ]
+          },
+          {
+            "day": 4,
+            "activities": [
+              "Trek to Gangotri Temple, darshan",
+              "Return Delhi over 2 days"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b910,000",
+        "images": [
+          "https://uttarakhandtriptrek.com/wp-content/uploads/2019/02/gangotri-yamunotri.jpeg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6mK6JGrJqBKb2nD94qNGKKpvvCrFT_FN8MA&s",
+          "https://hblimg.mmtcdn.com/content/hubble/img/img_yamunotri/mmt/activities/t_ufs/m_yamunotri_kharsali_1_l_480_640.jpg",
+          "https://www.chardhamhotel.in/blog/wp-content/uploads/2024/05/Hotels-in-Yamunotri.jpg",
+          "https://pix10.agoda.net/hotelImages/48924737/-1/5baaa698e10871b725ac099c0f63e348.jpg?ce=0&s=702x392"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Valley of Flowers",
+        "category": "Popular Location",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Joshimath \u2192 Govindghat",
+              "Evening rest"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Trek to Valley of Flowers",
+              "Floral meadow time",
+              "Camp at Ghangaria"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visit Hemkund Sahib",
+              "Return trek to Govindghat"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b912,000",
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbzkxdT5Z1ubxQhHwHzwdKYUrrC-34d6uqg&s",
+          "https://imagedelivery.net/y9EHf1toWJTBqJVsQzJU4g/www.indianholiday.com/2025/06/Valley-of-Flowers-National-Park.jpg/w=750,h=468",
+          "https://www.mygoodtrip.in/wp-content/uploads/2020/08/1-lW05RlARF0vAhJMdVRGxVw.png",
+          "https://static2.tripoto.com/media/filter/tst/img/15546/TripDocument/1443540252_1.jpg",
+          "https://www.hotelbhanupalace.com/rudraprayag/wp-content/uploads/2024/08/unnamed-file.jpg"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Auli",
+        "category": "Hill Station Offbeat",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Joshimath \u2192 Auli",
+              "Cable car ride & sunset view"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Skiing (winter) or meadow walk",
+              "Gurso Bugyal trek"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Local sightseeing",
+              "Return via Joshimath"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b910,000",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/83/Auli_Himalayas.jpg",
+          "https://s7ap1.scene7.com/is/image/incredibleindia/auli-badrinath-uttarakhand-3-attr-hero?qlt=82&ts=1726646558382",
+          "https://www.shrineyatra.in/wp-content/uploads/2024/12/best-time-to-visit-auli.webp",
+          "https://www.thestupidbear.com/wp-content/uploads/2023/03/Things-to-do-in-Auli-Uttarakhand.jpg",
+          "https://s7ap1.scene7.com/is/image/incredibleindia/auli-badrinath-uttarakhand-1-attr-hero?qlt=82&ts=1726646563426"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Binsar",
+        "category": "Offbeat Hill Station",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Binsar drive",
+              "Evening view from Zero Point"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Binsar Wildlife Sanctuary trek",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,000",
+        "images": [
+          "https://assets.cntraveller.in/photos/626011033a04507262ea6c47/4:3/w_1440,h_1080,c_limit/binsar-lead.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcs2Nca_dONPoAuk7GDaMEAEN65KGHLKMA-Q&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThKG0q_OgOym12ZUjfffoOU6IWUI_jnpXo9Q&s",
+          "https://assets.telegraphindia.com/telegraph/f141edf2-a649-4f3d-9b86-fadf65111131.jpg",
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_1735896063kausani__(1).jpg"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Khajjiar (Mini Switzerland)",
+        "category": "Offbeat Hill Station",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive to Khajjiar",
+              "Boating & lakeside stroll"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Horse riding & paragliding",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b97,000",
+        "images": [
+          "https://www.tusktravel.com/blog/wp-content/uploads/2022/07/khajjiar-Himachal3.jpg",
+          "https://www.treebo.com/blog/wp-content/uploads/2022/10/Blog-Header-5.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_Ty1O2cCkcogC1bqqboTTrz_yMOhcD3-UQ&s",
+          "https://sushantsinha77.com/wp-content/uploads/2023/07/you-will-be-mesmerized-by-seeing-5-tourist-places-of-khajjiar-himachal-pradesh-1.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9si0f6xoLmDX-4gEV3bzYnBpguWZdMGGUqA&s"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Chakrata",
+        "category": "Offbeat Village",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Chakrata drive",
+              "Monastery visit",
+              "Sunset at Tiger Falls"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Deoban trek & Jungle camp",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,500",
+        "images": [
+          "https://storage.googleapis.com/stateless-www-justwravel-com/2024/11/4e0d5d8a-chakrata-1.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvp4nd4NoDvQsZBGVCYGSmGhE1oqcGqXNEoA&s",
+          "https://static.thehosteller.com/blogimage/793e2864164646588a47de43d9f5a449_201252351_324698179320159_9090151806214099978_n%20(1)-1692188389879.jpg",
+          "https://www.tusktravel.com/blog/wp-content/uploads/2024/10/Things-to-do-in-Chakrata-Hill-Station-Uttarakhand.jpg",
+          "https://t.eucdn.in/tourism/lg-jpg/chakrata-4984182.jpg"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Neelkanth Mahadev (Sivan Temple Trek)",
+        "category": "Trek",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Haridwar \u2192 Neelkanth Mahadev trek start",
+              "Half-way camping"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Summit temple visit",
+              "Descent & return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,500",
+        "images": [
+          "https://d26dp53kz39178.cloudfront.net/media/uploads/products/neelkanth-temple-trek-rishikesh-1712860343375.jpg",
+          "https://images.prismic.io/indiahike/50763c10-d531-468f-a9bb-dc192524f6a3_Neelkanth+Mahadev+Trek_Neelkanth+Lake_Moksh.jpeg?auto=compress,format&rect=0,312,1600,800&w=1600&h=800",
+          "https://www.easeindiatrip.com/blog/wp-content/uploads/2024/12/Neelkanth-Mahadev-Temple-in-Rishikesh.jpg",
+          "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/58e13b3ccd430432a8e6960a4bd7afc0b8fafe088413c8a67d47beb6af9d3655.jpg",
+          "https://brozaadventures.com/soft/file_store/detaild_itenary/1684448410CJ.jpg"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Binsar Wildlife Sanctuary",
+        "category": "Wildlife",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive to Binsar",
+              "Evening safari"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Birdwatching & canopy walk",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,500",
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/07/0b/38/the-road-takes-you-deeper.jpg?w=900&h=500&s=1",
+          "https://www.savaari.com/blog/wp-content/uploads/2024/09/Binsar-Wildlife-Sanctuary-Route.webp",
+          "https://www.savaari.com/blog/wp-content/uploads/2024/09/Binsar-Wildlife-Sanctuary-Route.webp",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzmutgUwIz8tj4TmwEOHZRr-Wdn_s4svEqw&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePJzEtpmPjcdZB1T_CjtZDr6r-X4A74sdAg&s"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Deoria Tal (solo)",
+        "category": "Adventure Trek",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Chopta \u2192 Deoria Tal trek",
+              "Camp by lake"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Sunrise by lake",
+              "Return trek & drive to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b95,200",
+        "images": [
+          "https://travellingslacker.com/wp-content/uploads/2014/05/Deoria-Tal-3-1024x680.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/76/a6/72/photo0jpg.jpg?w=800&h=500&s=1",
+          "https://t.eucdn.in/tourism/lg-jpg/deoriyatal-1155775.jpg",
+          "https://travellingslacker.com/wp-content/uploads/2018/12/13936322480_9d82828587_c.jpg",
+          "https://s3-ap-south-1.amazonaws.com/soulveda-media-prod/wp-content/uploads/2024/06/10103627/deoria-tal-A-emerald-lake-perched-at-a-height-of-2438-mts-above-sea-level.jpg"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Birahi (Tribal Village)",
+        "category": "Offbeat Village",
+        "duration_days": 2,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive to Birahi",
+              "Tribal culture walk & homestay"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Local weaving demo",
+              "Return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b96,000",
+        "images": [
+          "https://source.unsplash.com/600x400/?Birahi+(Tribal+Village)&1",
+          "https://source.unsplash.com/600x400/?Birahi+(Tribal+Village)&2",
+          "https://source.unsplash.com/600x400/?Birahi+(Tribal+Village)&3",
+          "https://source.unsplash.com/600x400/?Birahi+(Tribal+Village)&4",
+          "https://source.unsplash.com/600x400/?Birahi+(Tribal+Village)&5"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Chanda Devi Trek",
+        "category": "Trek",
+        "duration_days": 3,
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Delhi \u2192 Uttarkashi \u2192 Deoban base",
+              "Camp"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Trek to Chanda Devi summit",
+              "Camp"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Descent and return"
+            ]
+          }
+        ],
+        "estimated_cost": "\u20b98,000",
+        "images": [
+          "https://media1.thrillophilia.com/filestore/qvk3i3hhsw0v9y389xvt1tkkekhl_shutterstock_769363705.jpg?w=400&dpr=2",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/20/4b/29/01/nice-experience-on-chandi.jpg?w=900&h=500&s=1",
+          "https://blog.yatradham.org/wp-content/uploads/2020/02/Chandi-Devi-Temple.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUOzNu9MUmLgmIMudiu7A7TGRRo2qZ-5u5A&s",
+          "https://blog.yatradham.org/wp-content/uploads/2022/11/Mansa-Devi-Temple-ropeway.jpg"
+        ]
+      }
+    ]
+  }
+}

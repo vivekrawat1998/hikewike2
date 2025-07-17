@@ -1,51 +1,49 @@
 import React from 'react';
-import { FaInfoCircle, FaPaperPlane } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
-const LocationCard = ({ image, name, description, duration, cost }) => {
-    return (
-        <div className="relative   rounded-3xl  overflow-hidden transition transform max-w-[30vw] h-[60vh] mx-auto">
+const LocationCard = ({ id, images = [], name, description, duration, cost }) => {
+  const navigate = useNavigate();
 
-            <div className="relative">
-                <img
-                    src={image}
-                    alt={name}
-                    className="w-full h-72 object-cover rounded-3xl"
-                />
+  return (
+    <div
+      onClick={() => navigate(`/location/${id}`)}
+      className="cursor-pointer relative rounded-3xl overflow-hidden transition transform max-w-[30vw] h-[46vh] mx-auto bg-white shadow-md"
+    >
+      <div className="relative w-full h-72">
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={10}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{ delay: 3000 }}
+          pagination={{ clickable: true }}
+          className="rounded-3xl w-full h-full"
+        >
+          {images.map((img, index) => (
+            <SwiperSlide key={index}>
+              <img
+                src={img}
+                alt={`${name} ${index + 1}`}
+                className="w-full h-72 object-cover rounded-3xl"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
 
-                {/* Days Tag */}
-                {/* <span className="absolute top-0 font-poppins -left-2 bg-prime text-white text-sm font-semibold px-5 py-2 shadow-md">
-                    {duration}
-                </span> */}
-            </div>
-
-            <div className=" mt-5 text-start">
-                <h2 className="text-2xl lg:text-sm font-bold font-poppins text-gray-900">
-                    {name}
-                </h2>
-
-                <p className="text-gray-700 text-base lg:text-sm font-releway mt-1 leading-relaxed">
-                    {description}
-                </p>
-
-                <div className=" mt-1 btext-base lg:text-lg text-gray-800">
-                    <p>
-                        <span className="text-sec font-bold">{cost}</span>
-                    </p>
-                </div>
-
-                {/* <div className=" flex flex-col absolute z-10 bottom-7 sm:flex-row sm:justify-start gap-4">
-                    <button className="flex items-center justify-center gap-2 px-5 py-2.5 bg-sec hover:bg-sec/80 text-white text-base font-semibold rounded-full transition">
-                        <FaInfoCircle className="text-md" />
-                        View Details
-                    </button>
-                    <button className="flex items-center justify-center gap-2 px-5 py-2.5 bg-prime hover:bg-prime/80 text-white text-base font-semibold rounded-full transition">
-                        <FaPaperPlane className="text-md" />
-                        Send Query
-                    </button>
-                </div> */}
-            </div>
+      <div className="mt-5 text-start px-3">
+        <h2 className="text-xl font-bold font-poppins text-gray-900">{name}</h2>
+        <p className="text-gray-700 text-sm mt-1 leading-relaxed">{description}</p>
+        <div className="mt-1 text-sm text-gray-800">
+          <p><span className="text-sec font-bold">{cost}</span></p>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default LocationCard;

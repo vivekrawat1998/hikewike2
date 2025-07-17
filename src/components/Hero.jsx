@@ -1,55 +1,42 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade } from 'swiper/modules';
 import { Search } from 'lucide-react';
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-
-const images = [
-  'https://t.eucdn.in/tourism/lg/rudranath-3584027.webp',
-  'https://upload.wikimedia.org/wikipedia/commons/5/56/Kedarnath_Temple_in_Rainy_season.jpg',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiDle_trulrLcBypLJMOizlHCmKS8kpJb0Xg&s',
-];
 
 const Hero = () => {
   return (
-    <div className="relative w-full grid place-items-center h-[70vh] text-white overflow-hidden">
-      {/* Background Carousel */}
-      <Swiper
-        modules={[Autoplay, EffectFade]}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        effect="fade"
+    <div className="relative w-full grid place-items-center h-[90vh] text-white overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover z-0"
+        src="/Unseen Beauty Of Uttarakhand  Cinematic Drone Video - Uttarakhand Tourism - Uttarakhand Tourism (1080p, h264).mp4"
+        autoPlay
+        muted
         loop
-        className="absolute inset-0 w-full h-screen z-0 pointer-events-none"
-      >
-        {images.map((url, idx) => (
-          <SwiperSlide key={idx}>
-            <div
-              className="w-full h-full bg-cover bg-center"
-              style={{ backgroundImage: `url(${url})` }}
-            >
-              <div className="absolute inset-0 bg-black/50" />
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+        playsInline
+      />
 
-      {/* Content */}
-      <div className="absolute z-999 border-2 w-full flex flex-col items-center justify-center h-full text-center px-4">
-        <h1 className=" lg:text-[4rem] font-semibold mb-8 mt-20 md:mt-0 drop-shadow-xl">
-          Find your outside
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/50 z-10" />
+
+      {/* Foreground Content */}
+      <div className="absolute z-20 flex flex-col items-center justify-center h-full w-full text-center px-4">
+        {/* Title */}
+        <h1 className="text-3xl sm:text-4xl lg:text-[4rem] font-releway font-semibold mb-4 drop-shadow-lg">
+          Explore the Unseen
         </h1>
-        <div className="flex items-center bg-white/90 text-gray-700 w-3xl rounded-full px-6 py-5 shadow-xl backdrop-blur-md border border-white/20 mb-6">
+        {/* Subtitle */}
+        <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl font-releway drop-shadow">
+          Discover hidden trails, majestic peaks, and scenic beauty across Uttarakhand & beyond.
+        </p>
+
+        {/* Search Box */}
+        <div className="flex items-center bg-white/90 text-gray-700 w-full max-w-2xl rounded-full px-6 py-4 shadow-xl backdrop-blur-md border border-white/20 mb-6">
           <Search className="text-gray-400 mr-3 w-6 h-6" />
           <input
             type="text"
-            placeholder="Search by city, park, or trail name"
-            className="flex-1 outline-none bg-transparent text-lg"
+            placeholder="Search by Location..."
+            className="flex-1 outline-none bg-transparent text-base sm:text-lg"
           />
         </div>
-        <button className="underline hover:text-green-400 transition text-lg">
-          Explore nearby trails
-        </button>
       </div>
     </div>
   );
