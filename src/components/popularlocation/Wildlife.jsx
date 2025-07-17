@@ -58,16 +58,17 @@ const Wildlife = () => {
             {swiperReady && (
                 <Swiper
                     modules={[Navigation]}
-                    spaceBetween={20}
-                    slidesPerView={4}
-                    slidesPerGroup={3}
+                    spaceBetween={16}
+                    speed={600}
                     loop={false}
-                    speed={900}
+                    slidesPerGroup={1}
                     navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
                     breakpoints={{
-                        640: { slidesPerView: 1 },
+                        0: { slidesPerView: 1.3 },
+                        480: { slidesPerView: 1.5 },
+                        640: { slidesPerView: 2 },
                         768: { slidesPerView: 2 },
-                        1024: { slidesPerView: 4 },
+                        1024: { slidesPerView: 3 },
                         1280: { slidesPerView: 4 },
                     }}
                     onSwiper={(swiper) => {

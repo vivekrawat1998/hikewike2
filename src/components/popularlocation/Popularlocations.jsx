@@ -11,7 +11,6 @@ const PopularLocations = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const [swiperReady, setSwiperReady] = useState(false);
-  const [swiperInstance, setSwiperInstance] = useState(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
 
@@ -24,54 +23,49 @@ const PopularLocations = () => {
   );
 
   return (
-    <div className="w-full px-4 relative py-20 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-bold mb-10 text-left text-gray-800">
+    <div className="w-full px-4 md:px-8 lg:px-10 xl:px-0 relative py-16 max-w-7xl mx-auto">
+      <h1 className="text-2xl sm:text-3xl font-bold mb-8 text-left text-gray-800">
         Popular Locations
       </h1>
 
-      {/* Prev Button */}
+      {/* Navigation Buttons (conditionally rendered based on swiper state) */}
       {!isBeginning && (
-        <div className="absolute top-72 -left-10 z-20">
-          <button
-            ref={prevRef}
-            aria-label="Previous"
-            className="bg-white cursor-pointer shadow-xl text-sec p-2 rounded-full "
-          >
-            <FiArrowLeft size={32} />
-          </button>
-        </div>
+        <button
+          ref={prevRef}
+          aria-label="Previous"
+          className="hidden sm:flex items-center justify-center absolute top-1/2 -translate-y-1/2 -left-5 sm:-left-6 md:-left-8 z-20 bg-white text-sec shadow-md p-2 rounded-full"
+        >
+          <FiArrowLeft size={24} />
+        </button>
       )}
 
-      {/* Next Button */}
       {!isEnd && (
-        <div className="absolute top-72 -right-10 z-20">
-          <button
-            ref={nextRef}
-            aria-label="Next"
-            className="bg-white cursor-pointer shadow-xl text-sec p-2 rounded-full "
-          >
-            <FiArrowRight size={32} />
-          </button>
-        </div>
+        <button
+          ref={nextRef}
+          aria-label="Next"
+          className="hidden sm:flex items-center justify-center absolute top-1/2 -translate-y-1/2 -right-5 sm:-right-6 md:-right-8 z-20 bg-white text-sec shadow-md p-2 rounded-full"
+        >
+          <FiArrowRight size={24} />
+        </button>
       )}
 
       {swiperReady && (
         <Swiper
           modules={[Navigation]}
-          spaceBetween={20}
-          slidesPerView={4}
-          slidesPerGroup={3}
+          spaceBetween={16}
+          speed={600}
           loop={false}
-          speed={900}
+          slidesPerGroup={1}
           navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
           breakpoints={{
-            640: { slidesPerView: 1 },
+            0: { slidesPerView: 1.3 },
+            480: { slidesPerView: 1.5 },
+            640: { slidesPerView: 2 },
             768: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
+            1024: { slidesPerView: 3 },
             1280: { slidesPerView: 4 },
           }}
           onSwiper={(swiper) => {
-            setSwiperInstance(swiper);
             setTimeout(() => {
               swiper.params.navigation.prevEl = prevRef.current;
               swiper.params.navigation.nextEl = nextRef.current;
@@ -80,7 +74,7 @@ const PopularLocations = () => {
               swiper.navigation.update();
               setIsBeginning(swiper.isBeginning);
               setIsEnd(swiper.isEnd);
-            });
+            }, 0);
           }}
           onSlideChange={(swiper) => {
             setIsBeginning(swiper.isBeginning);
@@ -88,7 +82,7 @@ const PopularLocations = () => {
           }}
         >
           {popularLocations.map((location) => (
-            <SwiperSlide key={location.id}>
+            <SwiperSlide key={location.id} className="pb-6">
               <LocationCard
                 id={location.id}
                 images={location.images || []}
@@ -97,7 +91,6 @@ const PopularLocations = () => {
                 duration={`${location.duration_days} Days`}
                 cost={location.estimated_cost}
               />
-
             </SwiperSlide>
           ))}
         </Swiper>

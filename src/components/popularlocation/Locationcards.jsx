@@ -11,36 +11,47 @@ const LocationCard = ({ id, images = [], name, description, duration, cost }) =>
   return (
     <div
       onClick={() => navigate(`/location/${id}`)}
-      className="cursor-pointer relative rounded-3xl overflow-hidden transition transform max-w-[30vw] h-[46vh] mx-auto bg-white shadow-md"
+      className="cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md w-full max-w-xs mx-auto transition hover:shadow-lg"
     >
-      <div className="relative w-full h-72">
+      {/* Image Carousel */}
+      <div className="relative w-full h-48 sm:h-56">
         <Swiper
           modules={[Autoplay, Pagination]}
-          spaceBetween={10}
-          slidesPerView={1}
-          loop={true}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 4000 }}
           pagination={{ clickable: true }}
-          className="rounded-3xl w-full h-full"
+          loop
+          slidesPerView={1}
+          className="w-full h-full"
         >
           {images.map((img, index) => (
             <SwiperSlide key={index}>
               <img
                 src={img}
                 alt={`${name} ${index + 1}`}
-                className="w-full h-72 object-cover rounded-3xl"
+                className="w-full h-full object-cover"
               />
             </SwiperSlide>
           ))}
         </Swiper>
+
+        {/* Optional: Tag (like "Guest favourite") */}
+        <div className="absolute top-3 left-3 bg-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+          Guest favourite
+        </div>
+
+        {/* Optional: Wishlist Heart */}
+        <div className="absolute top-3 right-3 bg-white rounded-full p-2 shadow-sm">
+          ❤️
+        </div>
       </div>
 
-      <div className="mt-5 text-start px-3">
-        <h2 className="text-xl font-bold font-poppins text-gray-900">{name}</h2>
-        <p className="text-gray-700 text-sm mt-1 leading-relaxed">{description}</p>
-        <div className="mt-1 text-sm text-gray-800">
-          <p><span className="text-sec font-bold">{cost}</span></p>
-        </div>
+      {/* Text Content */}
+      <div className="p-3">
+        <h3 className="text-sm font-semibold text-gray-900 line-clamp-1">{name}</h3>
+        <p className="text-xs text-gray-600 mt-1 line-clamp-2">{description}</p>
+        <p className="text-sm text-gray-800 mt-1 font-medium">{cost} • {duration}</p>
+        {/* Optional: Rating */}
+        <div className="text-sm text-yellow-600 mt-1">★ 4.9</div>
       </div>
     </div>
   );

@@ -18,11 +18,9 @@ const OffbeatTrek = () => {
     useEffect(() => {
         setSwiperReady(true);
     }, []);
-
     const popularLocations = Locations.trip_collection.trips.filter(
         (loc) => loc.category === 'Offbeat Trek'
     );
-
     return (
         <div className="w-full px-4 relative py-20 max-w-7xl mx-auto">
             <h1 className="text-3xl font-bold mb-10 text-left text-gray-800">
@@ -41,7 +39,6 @@ const OffbeatTrek = () => {
                     </button>
                 </div>
             )}
-
             {/* Next Button */}
             {!isEnd && (
                 <div className="absolute top-72 -right-10 z-20">
@@ -54,22 +51,22 @@ const OffbeatTrek = () => {
                     </button>
                 </div>
             )}
-
             {swiperReady && (
-                <Swiper
-                    modules={[Navigation]}
-                    spaceBetween={20}
-                    slidesPerView={4}
-                    slidesPerGroup={3}
-                    loop={false}
-                    speed={900}
-                    navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
-                    breakpoints={{
-                        640: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        1024: { slidesPerView: 4 },
-                        1280: { slidesPerView: 4 },
-                    }}
+               <Swiper
+                        modules={[Navigation]}
+                        spaceBetween={16}
+                        speed={600}
+                        loop={false}
+                        slidesPerGroup={1}
+                        navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
+                        breakpoints={{
+                          0: { slidesPerView: 1.3 },
+                          480: { slidesPerView: 1.5 },
+                          640: { slidesPerView: 2 },
+                          768: { slidesPerView: 2 },
+                          1024: { slidesPerView: 3 },
+                          1280: { slidesPerView: 4 },
+                        }}
                     onSwiper={(swiper) => {
                         setSwiperInstance(swiper);
                         setTimeout(() => {

@@ -56,20 +56,21 @@ const HillStation = () => {
             )}
 
             {swiperReady && (
-                <Swiper
-                    modules={[Navigation]}
-                    spaceBetween={20}
-                    slidesPerView={4}
-                    slidesPerGroup={3}
-                    loop={false}
-                    speed={900}
-                    navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
-                    breakpoints={{
-                        640: { slidesPerView: 1 },
-                        768: { slidesPerView: 2 },
-                        1024: { slidesPerView: 4 },
-                        1280: { slidesPerView: 4 },
-                    }}
+              <Swiper
+                       modules={[Navigation]}
+                       spaceBetween={16}
+                       speed={600}
+                       loop={false}
+                       slidesPerGroup={1}
+                       navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
+                       breakpoints={{
+                         0: { slidesPerView: 1.3 },
+                         480: { slidesPerView: 1.5 },
+                         640: { slidesPerView: 2 },
+                         768: { slidesPerView: 2 },
+                         1024: { slidesPerView: 3 },
+                         1280: { slidesPerView: 4 },
+                       }}
                     onSwiper={(swiper) => {
                         setSwiperInstance(swiper);
                         setTimeout(() => {
