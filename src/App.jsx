@@ -7,9 +7,6 @@ import Hompage from "./pages/Hompage";
 import Layout from "./ui/Layout";
 import ScrollToTop from "./ui/Scrollontop";
 
-
-
-
 import Loader from "./ui/Loader";
 import LocationDetails from "./components/LocationDetails";
 

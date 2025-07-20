@@ -193,10 +193,7 @@
           },
           {
             "day": 3,
-            "activities": [
-              "Breakfast in Chopta",
-              "Return Delhi via Dehradun"
-            ]
+            "activities": ["Breakfast in Chopta", "Return Delhi via Dehradun"]
           }
         ],
         "estimated_cost": "\u20b96,800",
@@ -285,10 +282,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Sunrise at Golf Course",
-              "Drive back to Delhi"
-            ]
+            "activities": ["Sunrise at Golf Course", "Drive back to Delhi"]
           }
         ],
         "estimated_cost": "\u20b96,000",
@@ -345,9 +339,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Visit local meadows & return Delhi"
-            ]
+            "activities": ["Visit local meadows & return Delhi"]
           }
         ],
         "estimated_cost": "\u20b95,000",
@@ -367,17 +359,11 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": [
-              "Drive Delhi \u2192 Corbett",
-              "Evening jeep safari"
-            ]
+            "activities": ["Drive Delhi \u2192 Corbett", "Evening jeep safari"]
           },
           {
             "day": 2,
-            "activities": [
-              "Morning safari",
-              "Birdwatching walk & return Delhi"
-            ]
+            "activities": ["Morning safari", "Birdwatching walk & return Delhi"]
           }
         ],
         "estimated_cost": "\u20b98,000",
@@ -397,17 +383,11 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": [
-              "Drive Delhi \u2192 Rajaji",
-              "Evening sunset safari"
-            ]
+            "activities": ["Drive Delhi \u2192 Rajaji", "Evening sunset safari"]
           },
           {
             "day": 2,
-            "activities": [
-              "Morning jungle safari",
-              "Return to Delhi"
-            ]
+            "activities": ["Morning jungle safari", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b97,000",
@@ -434,9 +414,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Short trek to Khaliya Top or local herbs farm"
-            ]
+            "activities": ["Short trek to Khaliya Top or local herbs farm"]
           },
           {
             "day": 3,
@@ -470,10 +448,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Forest trails exploration",
-              "Return to Delhi"
-            ]
+            "activities": ["Forest trails exploration", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b95,000",
@@ -530,9 +505,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Forest exploration & return to Delhi"
-            ]
+            "activities": ["Forest exploration & return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b95,500",
@@ -596,10 +569,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Mana village visit",
-              "Drive back towards Delhi"
-            ]
+            "activities": ["Mana village visit", "Drive back towards Delhi"]
           }
         ],
         "estimated_cost": "\u20b99,000",
@@ -626,17 +596,11 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Yamunotri trek and darshan",
-              "Return to base"
-            ]
+            "activities": ["Yamunotri trek and darshan", "Return to base"]
           },
           {
             "day": 3,
-            "activities": [
-              "Drive to Uttarkashi/Gangotri base",
-              "Evening rest"
-            ]
+            "activities": ["Drive to Uttarkashi/Gangotri base", "Evening rest"]
           },
           {
             "day": 4,
@@ -678,10 +642,7 @@
           },
           {
             "day": 3,
-            "activities": [
-              "Visit Hemkund Sahib",
-              "Return trek to Govindghat"
-            ]
+            "activities": ["Visit Hemkund Sahib", "Return trek to Govindghat"]
           }
         ],
         "estimated_cost": "\u20b912,000",
@@ -715,10 +676,7 @@
           },
           {
             "day": 3,
-            "activities": [
-              "Local sightseeing",
-              "Return via Joshimath"
-            ]
+            "activities": ["Local sightseeing", "Return via Joshimath"]
           }
         ],
         "estimated_cost": "\u20b910,000",
@@ -745,10 +703,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Binsar Wildlife Sanctuary trek",
-              "Return to Delhi"
-            ]
+            "activities": ["Binsar Wildlife Sanctuary trek", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b96,000",
@@ -768,17 +723,11 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": [
-              "Drive to Khajjiar",
-              "Boating & lakeside stroll"
-            ]
+            "activities": ["Drive to Khajjiar", "Boating & lakeside stroll"]
           },
           {
             "day": 2,
-            "activities": [
-              "Horse riding & paragliding",
-              "Return to Delhi"
-            ]
+            "activities": ["Horse riding & paragliding", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b97,000",
@@ -806,10 +755,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Deoban trek & Jungle camp",
-              "Return to Delhi"
-            ]
+            "activities": ["Deoban trek & Jungle camp", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b96,500",
@@ -836,10 +782,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Summit temple visit",
-              "Descent & return to Delhi"
-            ]
+            "activities": ["Summit temple visit", "Descent & return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b95,500",
@@ -859,17 +802,11 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": [
-              "Drive to Binsar",
-              "Evening safari"
-            ]
+            "activities": ["Drive to Binsar", "Evening safari"]
           },
           {
             "day": 2,
-            "activities": [
-              "Birdwatching & canopy walk",
-              "Return to Delhi"
-            ]
+            "activities": ["Birdwatching & canopy walk", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b96,500",
@@ -896,10 +833,7 @@
           },
           {
             "day": 2,
-            "activities": [
-              "Sunrise by lake",
-              "Return trek & drive to Delhi"
-            ]
+            "activities": ["Sunrise by lake", "Return trek & drive to Delhi"]
           }
         ],
         "estimated_cost": "\u20b95,200",
@@ -919,17 +853,11 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": [
-              "Drive to Birahi",
-              "Tribal culture walk & homestay"
-            ]
+            "activities": ["Drive to Birahi", "Tribal culture walk & homestay"]
           },
           {
             "day": 2,
-            "activities": [
-              "Local weaving demo",
-              "Return to Delhi"
-            ]
+            "activities": ["Local weaving demo", "Return to Delhi"]
           }
         ],
         "estimated_cost": "\u20b96,000",
@@ -949,23 +877,15 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": [
-              "Delhi \u2192 Uttarkashi \u2192 Deoban base",
-              "Camp"
-            ]
+            "activities": ["Delhi \u2192 Uttarkashi \u2192 Deoban base", "Camp"]
           },
           {
             "day": 2,
-            "activities": [
-              "Trek to Chanda Devi summit",
-              "Camp"
-            ]
+            "activities": ["Trek to Chanda Devi summit", "Camp"]
           },
           {
             "day": 3,
-            "activities": [
-              "Descent and return"
-            ]
+            "activities": ["Descent and return"]
           }
         ],
         "estimated_cost": "\u20b98,000",

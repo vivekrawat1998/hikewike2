@@ -1,42 +1,53 @@
-import React from 'react';
-import { Search } from 'lucide-react';
+import React from "react";
+import { Search } from "lucide-react";
+import RotatingText from "../ui/Rotatingtext";
 
 const Hero = () => {
   return (
-    <div className="relative w-full grid place-items-center h-[90vh] text-white overflow-hidden">
+    <div className="relative w-full grid place-items-center h-[80vh] text-white overflow-hidden">
       {/* Background Video */}
       <video
+        style={{ objectPosition: "top" }}
         className="absolute inset-0 w-full h-full object-cover z-0"
-        src="/Unseen Beauty Of Uttarakhand  Cinematic Drone Video - Uttarakhand Tourism - Uttarakhand Tourism (1080p, h264).mp4"
+        src="https://res.cloudinary.com/dpaxvc4xw/video/upload/v1753010320/19068486-uhd_3840_2160_25fps_iqmc0o.mp4"
         autoPlay
         muted
         loop
         playsInline
       />
+      {/* <img
+        src="/DSC_7240 (1).JPG"
+        alt=""
+        className="w-full h-full object-"
+      />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/50 z-10" />
-
+      <div className="absolute inset-0  z-10 bg-black/20" />
       {/* Foreground Content */}
-      <div className="absolute z-20 flex flex-col items-center justify-center h-full w-full text-center px-4">
-        {/* Title */}
-        <h1 className="text-3xl sm:text-4xl lg:text-[4rem] font-releway font-semibold mb-4 drop-shadow-lg">
-          Explore the Unseen
+      <div className="absolute z-20 flex flex-col mt-20  items-center justify-center h-full w-full text-center px-4">
+        <h1 className="text-3xl sm:text-4xl lg:text-[48px] font-parkinsans font-bold mb-4 drop-shadow-lg">
+          Where Every Journey Begins with
         </h1>
-        {/* Subtitle */}
-        <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl font-releway drop-shadow">
-          Discover hidden trails, majestic peaks, and scenic beauty across Uttarakhand & beyond.
-        </p>
 
-        {/* Search Box */}
-        <div className="flex items-center bg-white/90 text-gray-700 w-full max-w-2xl rounded-full px-6 py-4 shadow-xl backdrop-blur-md border border-white/20 mb-6">
-          <Search className="text-gray-400 mr-3 w-6 h-6" />
-          <input
-            type="text"
-            placeholder="Search by Location..."
-            className="flex-1 outline-none bg-transparent text-base sm:text-lg"
-          />
-        </div>
+        <RotatingText
+          texts={[
+            `${'"'}Curiosity ${'"'}`,
+            `${'"'}Nature ${'"'}`,
+            `${'"'} Adventure ${'"'}`,
+            `${'"'} Connection ${'"'}`,
+            `${'"'} Purpose ${'"'}`,
+            `${'"'} You ${'"'}`,
+          ]}
+          mainClassName="px-2 text-3xl sm:text-4xl -mt-3  text-white lg:text-[48px] font-bold font-parkinsans  text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-3xl"
+          staggerFrom={"last"}
+          initial={{ y: "100%" }}
+          animate={{ y: 0 }}
+          exit={{ y: "-120%" }}
+          staggerDuration={0.025}
+          splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+          transition={{ type: "spring", damping: 30, stiffness: 400 }}
+          rotationInterval={3000}
+        />
       </div>
     </div>
   );
