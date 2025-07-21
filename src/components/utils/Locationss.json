@@ -8,6 +8,9 @@
         "name": "Nainital",
         "category": "Popular Location",
         "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+
         "itinerary": [
           {
             "day": 1,
@@ -41,6 +44,8 @@
         "name": "Mussoorie",
         "category": "Popular Location",
         "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -73,6 +78,8 @@
         "name": "Rishikesh",
         "category": "Popular Location",
         "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -113,6 +120,8 @@
         "name": "Haridwar",
         "category": "Popular Location",
         "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -145,6 +154,8 @@
         "name": "Dehradun",
         "category": "Popular Location",
         "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -176,6 +187,8 @@
         "name": "Tungnath & Chandrashila",
         "category": "Popular Location",
         "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -329,6 +342,8 @@
         "name": "Chopta",
         "category": "Popular Location",
         "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -402,8 +417,10 @@
       {
         "id": 14,
         "name": "Munsiyari",
-        "category": "Offbeat Trek",
+        "category": "Weekend Trips",
         "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -522,6 +539,9 @@
         "name": "Kedarnath",
         "category": "Popular Location",
         "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+
         "itinerary": [
           {
             "day": 1,
@@ -558,6 +578,8 @@
         "id": 19,
         "name": "Badrinath",
         "category": "Popular Location",
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "duration_days": 2,
         "itinerary": [
           {
@@ -586,6 +608,8 @@
         "name": "Yamunotri & Gangotri",
         "category": "Popular Location",
         "duration_days": 4,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -624,6 +648,8 @@
         "name": "Valley of Flowers",
         "category": "Popular Location",
         "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
         "itinerary": [
           {
             "day": 1,
@@ -895,6 +921,434 @@
           "https://blog.yatradham.org/wp-content/uploads/2020/02/Chandi-Devi-Temple.jpg",
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUOzNu9MUmLgmIMudiu7A7TGRRo2qZ-5u5A&s",
           "https://blog.yatradham.org/wp-content/uploads/2022/11/Mansa-Devi-Temple-ropeway.jpg"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Nainital",
+        "category": "Weekend Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi early morning → reach by noon",
+              "Check-in and lunch",
+              "Boat ride on Naini Lake",
+              "Evening Mall Road & Naina Devi Temple visit"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Cable car to Snow View Point",
+              "Explore Eco Cave Gardens",
+              "Return to Delhi by evening"
+            ]
+          }
+        ],
+        "estimated_cost": "₹7,500",
+        "images": [
+          "https://stampedmoments.com/wp-content/uploads/2022/09/boating-naini-lake.jpg",
+          "https://www.stayvista.com/blog/wp-content/uploads/2024/07/19421484519_dd4e3f4009_b-1.jpg",
+          "https://www.swantour.com/blogs/wp-content/uploads/2018/12/Nainital-Lake.jpg",
+          "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/dwc599ehnok1bqguq7rp.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/80/d2/94/bar-be-que.jpg?w=1200&h=-1&s=1"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Mussoorie",
+        "category": "Weekend Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Morning drive from Delhi → Mussoorie",
+              "Stroll Mall Road & Gun Hill ride",
+              "Evening at Lal Tibba viewpoint"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visit Kempty Falls",
+              "Camel’s Back Road walk",
+              "Return to Delhi by night"
+            ]
+          }
+        ],
+        "estimated_cost": "₹5,800",
+        "images": [
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1746526797mussorroe.jpg",
+          "https://clubmahindra.gumlet.io/blog/media/section_images/shuttersto-65eea6c9f8abbd6.jpg?w=376&dpr=2.6",
+          "https://lp-cms-production.imgix.net/2019-06/GettyImages-450780651_full.jpg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges",
+          "https://mussoorietourism.co.in/images/places-to-visit/header/kempty-falls-mussoorie-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQ09uHKUL1jzlgx71YQkD90y4uOaaf4Cctg&s"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Rishikesh",
+        "category": "Weekend Trips",
+        "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi → reach Rishikesh by afternoon",
+              "Check-in & evening Ganga Aarti at Triveni Ghat"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Morning yoga session",
+              "River rafting (optional)",
+              "Cross Laxman & Ram Jhula",
+              "Evening café visit in Tapovan"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visit Beatles Ashram",
+              "Beach visit & local shopping",
+              "Return to Delhi late evening"
+            ]
+          }
+        ],
+        "estimated_cost": "₹6,500",
+        "images": [
+          "https://s7ap1.scene7.com/is/image/incredibleindia/1-triveni-ghat-rishikesh-uttarakhand-2-city-hero?qlt=82&ts=1726646286991",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trayambakeshwar_Temple_VK.jpg/1200px-Trayambakeshwar_Temple_VK.jpg",
+          "https://s7ap1.scene7.com/is/image/incredibleindia/laxman%20jhula-rishikesh-uttrakhand-hero?qlt=82&ts=1726646312953",
+          "https://s3.india.com/wp-content/uploads/2024/05/Feature-Image_-Rishikesh.jpg",
+          "https://www.easeindiatrip.com/blog/wp-content/uploads/2025/01/Rishikesh-Visit-in-February.jpg"
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Haridwar",
+        "category": "Weekend Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi → Haridwar",
+              "Check-in & temple visits (Mansa Devi, Chandi Devi)",
+              "Evening Ganga Aarti at Har-Ki-Pauri"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Boat ride on Ganges",
+              "Local market exploration",
+              "Return to Delhi evening"
+            ]
+          }
+        ],
+        "estimated_cost": "₹4,900",
+        "images": [
+          "https://clubmahindra.gumlet.io/blog/images/haridwar-image.jpg?w=376&dpr=2.6",
+          "https://cdn.prod.website-files.com/6364d88dd010ce5c6f8aa8fc/6780d389efdb44cce38f313c_Best_Place_to_Stay_in_Haridwar3_88e480429a.webp",
+          "https://www.pilgrimagetour.in/blog/wp-content/uploads/2024/05/Ganga-Ghats-at-Haridwar.jpg",
+          "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fp9xy2zekhmktw0w3fhc/Haridwar%20City%20Exploration%20with%20Ganga%20Aarti%20Ceremony.jpg",
+          "https://oneday.tours/wp-content/uploads/one-day-haridwar-and-rishikesh-local-sightseeing-tour-package-private-cab-header.jpg"
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Dehradun",
+        "category": "Weekend Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Transfer Delhi → Dehradun",
+              "Visit Robber’s Cave & Buddha Temple",
+              "Evening at Paltan Bazaar"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Explore Sahastradhara & FRI",
+              "Shopping and return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "₹6,800",
+        "images": [
+          "https://www.jaypeehotels.com/blog/wp-content/uploads/2024/09/Blog-2-scaled.jpg",
+          "https://s3.india.com/wp-content/uploads/2024/03/Feature-Image_-Discovering-Dehradun.jpg##image/jpg",
+          "https://www.namastedehradun.com/wp-content/uploads/2013/02/musoorie1.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/cb/20/4b/hotel-facade.jpg?w=1200&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/48/a7/d7/regenta-lp-vilas-dehradun.jpg?w=1200&h=-1&s=1"
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Tungnath & Chandrashila",
+        "category": "Weekend Trips",
+        "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi → Chopta",
+              "Short nature trail around Chopta"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Trek Chopta → Tungnath temple → Chandrashila summit",
+              "Sunrise at Chandrashila, return trek"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": ["Breakfast in Chopta", "Return Delhi via Dehradun"]
+          }
+        ],
+        "estimated_cost": "₹6,800",
+        "images": [
+          "https://himalayandaredevils.com/storage/uploads/672db16bedb0b.jpg",
+          "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1481019868/DO_NOT_USE_DISCOVER_INDIA_EDITORIAL/Chopta_Blog1.jpg",
+          "https://www.hotelbhanupalace.com/rudraprayag/wp-content/uploads/2024/06/chandrashila-peak-5.jpg",
+          "https://travelconnection.co.in/wp-content/uploads/2021/02/cover_268559277_1255941251557904_6864788766923624034_n__01.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6LRCOTIPVpsxYftHgmC7djght-pQbZg5j2g&s"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Nainital",
+        "category": "Corporate Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi early morning → reach by noon",
+              "Check-in and lunch",
+              "Boat ride on Naini Lake",
+              "Evening Mall Road & Naina Devi Temple visit"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Cable car to Snow View Point",
+              "Explore Eco Cave Gardens",
+              "Return to Delhi by evening"
+            ]
+          }
+        ],
+        "estimated_cost": "₹7,500",
+        "images": [
+          "https://stampedmoments.com/wp-content/uploads/2022/09/boating-naini-lake.jpg",
+          "https://www.stayvista.com/blog/wp-content/uploads/2024/07/19421484519_dd4e3f4009_b-1.jpg",
+          "https://www.swantour.com/blogs/wp-content/uploads/2018/12/Nainital-Lake.jpg",
+          "https://res.klook.com/image/upload/c_fill,w_750,h_750/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/dwc599ehnok1bqguq7rp.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/80/d2/94/bar-be-que.jpg?w=1200&h=-1&s=1"
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Mussoorie",
+        "category": "Corporate Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Morning drive from Delhi → Mussoorie",
+              "Stroll Mall Road & Gun Hill ride",
+              "Evening at Lal Tibba viewpoint"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Visit Kempty Falls",
+              "Camel’s Back Road walk",
+              "Return to Delhi by night"
+            ]
+          }
+        ],
+        "estimated_cost": "₹5,800",
+        "images": [
+          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1746526797mussorroe.jpg",
+          "https://clubmahindra.gumlet.io/blog/media/section_images/shuttersto-65eea6c9f8abbd6.jpg?w=376&dpr=2.6",
+          "https://lp-cms-production.imgix.net/2019-06/GettyImages-450780651_full.jpg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges",
+          "https://mussoorietourism.co.in/images/places-to-visit/header/kempty-falls-mussoorie-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQ09uHKUL1jzlgx71YQkD90y4uOaaf4Cctg&s"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Rishikesh",
+        "category": "Corporate Trips",
+        "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Depart Delhi → reach Rishikesh by afternoon",
+              "Check-in & evening Ganga Aarti at Triveni Ghat"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Morning yoga session",
+              "River rafting (optional)",
+              "Cross Laxman & Ram Jhula",
+              "Evening café visit in Tapovan"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": [
+              "Visit Beatles Ashram",
+              "Beach visit & local shopping",
+              "Return to Delhi late evening"
+            ]
+          }
+        ],
+        "estimated_cost": "₹6,500",
+        "images": [
+          "https://s7ap1.scene7.com/is/image/incredibleindia/1-triveni-ghat-rishikesh-uttarakhand-2-city-hero?qlt=82&ts=1726646286991",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trayambakeshwar_Temple_VK.jpg/1200px-Trayambakeshwar_Temple_VK.jpg",
+          "https://s7ap1.scene7.com/is/image/incredibleindia/laxman%20jhula-rishikesh-uttrakhand-hero?qlt=82&ts=1726646312953",
+          "https://s3.india.com/wp-content/uploads/2024/05/Feature-Image_-Rishikesh.jpg",
+          "https://www.easeindiatrip.com/blog/wp-content/uploads/2025/01/Rishikesh-Visit-in-February.jpg"
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Haridwar",
+        "category": "Corporate Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi → Haridwar",
+              "Check-in & temple visits (Mansa Devi, Chandi Devi)",
+              "Evening Ganga Aarti at Har-Ki-Pauri"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Boat ride on Ganges",
+              "Local market exploration",
+              "Return to Delhi evening"
+            ]
+          }
+        ],
+        "estimated_cost": "₹4,900",
+        "images": [
+          "https://clubmahindra.gumlet.io/blog/images/haridwar-image.jpg?w=376&dpr=2.6",
+          "https://cdn.prod.website-files.com/6364d88dd010ce5c6f8aa8fc/6780d389efdb44cce38f313c_Best_Place_to_Stay_in_Haridwar3_88e480429a.webp",
+          "https://www.pilgrimagetour.in/blog/wp-content/uploads/2024/05/Ganga-Ghats-at-Haridwar.jpg",
+          "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/fp9xy2zekhmktw0w3fhc/Haridwar%20City%20Exploration%20with%20Ganga%20Aarti%20Ceremony.jpg",
+          "https://oneday.tours/wp-content/uploads/one-day-haridwar-and-rishikesh-local-sightseeing-tour-package-private-cab-header.jpg"
+        ]
+      },
+      {
+        "id": 41,
+        "name": "Dehradun",
+        "category": "Corporate Trips",
+        "duration_days": 2,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Transfer Delhi → Dehradun",
+              "Visit Robber’s Cave & Buddha Temple",
+              "Evening at Paltan Bazaar"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Explore Sahastradhara & FRI",
+              "Shopping and return to Delhi"
+            ]
+          }
+        ],
+        "estimated_cost": "₹6,800",
+        "images": [
+          "https://www.jaypeehotels.com/blog/wp-content/uploads/2024/09/Blog-2-scaled.jpg",
+          "https://s3.india.com/wp-content/uploads/2024/03/Feature-Image_-Discovering-Dehradun.jpg##image/jpg",
+          "https://www.namastedehradun.com/wp-content/uploads/2013/02/musoorie1.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/cb/20/4b/hotel-facade.jpg?w=1200&h=-1&s=1",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/48/a7/d7/regenta-lp-vilas-dehradun.jpg?w=1200&h=-1&s=1"
+        ]
+      },
+      {
+        "id": 42,
+        "name": "Tungnath & Chandrashila",
+        "category": "Corporate Trips",
+        "duration_days": 3,
+        "duration_day_night": "6 nights / 7 days",
+        "date": "July 24, Aug 12",
+        "itinerary": [
+          {
+            "day": 1,
+            "activities": [
+              "Drive Delhi → Chopta",
+              "Short nature trail around Chopta"
+            ]
+          },
+          {
+            "day": 2,
+            "activities": [
+              "Trek Chopta → Tungnath temple → Chandrashila summit",
+              "Sunrise at Chandrashila, return trek"
+            ]
+          },
+          {
+            "day": 3,
+            "activities": ["Breakfast in Chopta", "Return Delhi via Dehradun"]
+          }
+        ],
+        "estimated_cost": "₹6,800",
+        "images": [
+          "https://himalayandaredevils.com/storage/uploads/672db16bedb0b.jpg",
+          "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1481019868/DO_NOT_USE_DISCOVER_INDIA_EDITORIAL/Chopta_Blog1.jpg",
+          "https://www.hotelbhanupalace.com/rudraprayag/wp-content/uploads/2024/06/chandrashila-peak-5.jpg",
+          "https://travelconnection.co.in/wp-content/uploads/2021/02/cover_268559277_1255941251557904_6864788766923624034_n__01.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6LRCOTIPVpsxYftHgmC7djght-pQbZg5j2g&s"
         ]
       }
     ]

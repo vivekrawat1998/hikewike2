@@ -8,7 +8,7 @@ const PHONE_NUMBER = "+91 8287636079";
 const RightActions = () => (
   <div className="flex items-center gap-3">
     {/* Desktop/tablet: animated shiny phone number */}
-    <div className="rounded-full md:px-10 py-3 bg-black md:flex hidden items-center text-white font-bold text-base shadow hover:text-black transition-colors">
+    <div className="rounded-full md:px-10 py-3 bg-black cursor-pointer md:flex hidden  items-center text-white font-bold text-base shadow hover:text-black transition-colors">
       <ShinyText
         icon={<PhoneCall className="w-5 h-5" />}
         text={PHONE_NUMBER}

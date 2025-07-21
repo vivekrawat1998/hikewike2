@@ -16,7 +16,7 @@ const SearchBar = () => (
       </span>
       <input
         type="text"
-        className="w-full py-3 pl-10 pr-3 rounded-full border border-gray-300 focus:outline-none focus:ring-1 focus:ring-emerald-500 text-sm"
+        className="w-full py-3 pl-10 pr-3 rounded-full border border-gray-300 focus:outline-none focus:ring-1 focus:ring-[#F36F25] text-sm"
         placeholder="Search Kedarnath..."
         aria-label="Search for destination"
       />

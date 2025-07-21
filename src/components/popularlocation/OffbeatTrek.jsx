@@ -13,14 +13,23 @@ const OffbeatTrek = () => {
   }, []);
 
   const popularLocations = Locations.trip_collection.trips.filter(
-    (loc) => loc.category === "Offbeat Trek"
+    (loc) => loc.category === "Weekend Trips"
   );
 
   return (
-    <div className="w-full px-4 relative py-20 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-bold mb-10 text-left text-gray-800">
-        OffBeat Trek Locations
-      </h1>
+    <div className="w-full px-4 relative font-parkinsans py-10 max-w-7xl mx-auto">
+      <div className="flex items-center mb-8 gap-2">
+        <img
+          width="32"
+          height="32"
+          src="https://img.icons8.com/emoji/48/snow-capped-mountain.png"
+          alt="snow-capped-mountain"
+        />
+        <h1 className="text-3xl font-bold  text-left text-gray-800">
+          Weekend Trips
+        </h1>
+      </div>
+
       {swiperReady && (
         <Swiper
           modules={[Navigation]}
@@ -44,6 +53,8 @@ const OffbeatTrek = () => {
                 id={location.id}
                 images={location.images || []}
                 name={location.name}
+                date={location.date}
+                durationdaynight={location.duration_day_night}
                 description={location.itinerary?.[0]?.activities?.[0] || ""}
                 duration={`${location.duration_days} Days`}
                 cost={location.estimated_cost}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { navLinks } from "../header/Navlinksdata";
 
 const NavLinks = () => (
-  <ul className="flex flex-wrap gap-10 mb-2 font-medium font-parkinsans text-base items-center">
+  <ul className="flex flex-wrap gap-10 mb-3 font-medium font-parkinsans text-base items-center">
     {navLinks.map(({ label, icon, to, dropdown, external }) => (
       <li key={label} className="flex items-center">
         {external ? (
@@ -12,7 +12,7 @@ const NavLinks = () => (
             href={to}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1 hover:text-emerald-700  transition-colors"
+            className="flex items-center gap-1 hover:text-[#F36F25]  transition-colors"
           >
             {icon}
             {label}
@@ -20,7 +20,7 @@ const NavLinks = () => (
         ) : (
           <Link
             to={to}
-            className="flex items-center gap-1 hover:text-emerald-700 transition-colors"
+            className="flex items-center gap-1 hover:text-[#F36F25] transition-colors"
           >
             {icon} {label}
             {dropdown && <span className="ml-1 text-xs">▼</span>}

@@ -7,6 +7,9 @@ import TravelBanner from "../components/TravelBanner";
 import HillStation from "../components/popularlocation/HillstationsOffbeat";
 import Wildlife from "../components/popularlocation/Wildlife";
 import OffbeatTrek from "../components/popularlocation/OffbeatTrek";
+import CoorsparateTrips from "../components/popularlocation/CoorparateTrips";
+import FirstBanner from "../components/banner/FirstBanner";
+import ReasonsToTravel from "../components/WhyHikewike";
 
 const Hompage = () => {
   return (
@@ -14,10 +17,13 @@ const Hompage = () => {
       <div className="">
         <Hero />
         <Popularlocations />
+        <FirstBanner />
         {/* <HillStation /> */}
-        <TravelBanner />
+        {/* <TravelBanner /> */}
         {/* <Wildlife /> */}
         <OffbeatTrek />
+        <CoorsparateTrips />
+        <ReasonsToTravel />
       </div>
     </Suspense>
   );
