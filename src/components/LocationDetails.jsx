@@ -1,26 +1,36 @@
-import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
-import Locations from '../components/utils/Locationss.json';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import React, { useState } from "react";
+import { useParams } from "react-router-dom";
+import Locations from "../components/utils/Locationss.json";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import BookNowCard from "./Bookingcard";
 
 const LocationDetails = () => {
   const { id } = useParams();
-  const location = Locations.trip_collection.trips.find(loc => loc.id === parseInt(id));
+  const location = Locations.trip_collection.trips.find(
+    (loc) => loc.id === parseInt(id)
+  );
 
   if (!location) {
-    return <p className="text-center text-red-600 text-xl mt-10">Location not found</p>;
+    return (
+      <p className="text-center text-red-600 text-xl mt-10">
+        Location not found
+      </p>
+    );
   }
 
-  const { name, images, itinerary, duration_days, estimated_cost, category } = location;
+  const { name, images, itinerary, duration_days, estimated_cost, category } =
+    location;
   const [openDay, setOpenDay] = useState(null);
 
   return (
     <div className="max-w-7xl pt-44 md:pt-32 mx-auto px-4 py-10">
       {/* Title */}
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6">{name}</h1>
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+        {name}
+      </h1>
 
       {/* Responsive Images Section */}
       <div className="mb-10">
@@ -69,7 +79,9 @@ const LocationDetails = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Itinerary Accordion */}
         <div className="md:col-span-2">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Itinerary</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Itinerary
+          </h2>
           <div className="space-y-3">
             {itinerary.map((day, i) => (
               <div key={i} className="border border-gray-200 rounded-xl">
@@ -78,7 +90,7 @@ const LocationDetails = () => {
                   className="w-full text-left px-4 py-3 font-medium text-gray-800 flex justify-between items-center"
                 >
                   <span>Day {day.day}</span>
-                  <span className="text-xl">{openDay === i ? '−' : '+'}</span>
+                  <span className="text-xl">{openDay === i ? "−" : "+"}</span>
                 </button>
                 {openDay === i && (
                   <div className="px-4 pb-4 text-gray-600 text-sm space-y-1">
@@ -95,7 +107,7 @@ const LocationDetails = () => {
         </div>
 
         {/* Booking Sidebar */}
-        <div className="p-6 border border-gray-200 rounded-2xl shadow-lg bg-white">
+        {/* <div className="p-6 border border-gray-200 rounded-2xl shadow-lg bg-white">
           <div className="text-2xl font-bold text-gray-900 mb-1">
             {estimated_cost}
           </div>
@@ -111,7 +123,8 @@ const LocationDetails = () => {
               Send Inquiry
             </button>
           </div>
-        </div>
+        </div> */}
+        <BookNowCard />
       </div>
     </div>
   );
