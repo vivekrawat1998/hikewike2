@@ -10,7 +10,6 @@
         "duration_days": 2,
         "duration_day_night": "6 nights / 7 days",
         "date": "July 24, Aug 12",
-
         "itinerary": [
           {
             "day": 1,
@@ -189,27 +188,45 @@
         "duration_days": 3,
         "duration_day_night": "6 nights / 7 days",
         "date": "July 24, Aug 12",
+        "description": "The Chopta Chandrashila Trek offers an unforgettable adventure into the serene landscapes of Uttarakhand. This moderate trek takes you through lush meadows, forests, and alpine settings, leading to the summit of Chandrashila Peak at 13,000 feet, offering stunning views of the Himalayan ranges. The trek also passes the Tungnath Temple, the highest Shiva temple in the world, adding a spiritual dimension to the journey. Nearby attractions include Ukhimath, the winter residence of Lord Kedarnath, Kalimath Temple, and Deoria Tal Lake, known for its reflective waters and panoramic mountain views. For wildlife enthusiasts, the Kanchula Korak Deer Musk Sanctuary is a must-visit. Easily accessible from Delhi, the trek can be reached by road, train, or air. The cost of the trek typically ranges between ₹7,500 and ₹9,500 per person, covering transportation, accommodation, meals, and guides. The best time to go is from April to June or during winter (October to February) for a snowy experience. This package ensures a smooth experience with professional guides, comfortable accommodations, and a well-organized itinerary, making it ideal for both beginners and experienced trekkers looking to connect with nature and spirituality.",
         "itinerary": [
           {
             "day": 1,
+            "title": "Arrival and Drive to Chopta",
             "activities": [
-              "Drive Delhi \u2192 Chopta",
-              "Short nature trail around Chopta"
+              "Reach Chopta from Delhi via road or other transport.",
+              "Settle into accommodation and prepare for trek tomorrow."
             ]
           },
           {
             "day": 2,
+            "title": "Trek to Tungnath and Chandrashila",
             "activities": [
-              "Trek Chopta \u2192 Tungnath temple \u2192 Chandrashila summit",
-              "Sunrise at Chandrashila, return trek"
+              "Trek from Chopta to Tungnath Temple (highest Shiva temple in the world).",
+              "Continue trek to Chandrashila Peak at 13,000 feet.",
+              "Enjoy panoramic Himalayan views from Chandrashila.",
+              "Return to Chopta or nearby accommodation."
             ]
           },
           {
             "day": 3,
-            "activities": ["Breakfast in Chopta", "Return Delhi via Dehradun"]
+            "title": "Exploration and Nearby Attractions",
+            "activities": [
+              "Visit Ukhimath, the winter residence of Lord Kedarnath.",
+              "Tour Kalimath Temple.",
+              "See Deoria Tal Lake famous for its reflective waters and mountain views.",
+              "Option to visit Kanchula Korak Deer Musk Sanctuary for wildlife enthusiasts."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Departure",
+            "activities": [
+              "Depart from Chopta and return to Delhi or onward destination."
+            ]
           }
         ],
-        "estimated_cost": "\u20b96,800",
+        "estimated_cost": "₹7,800",
         "images": [
           "https://himalayandaredevils.com/storage/uploads/672db16bedb0b.jpg",
           "https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_c_fill_q_auto:good_f_auto_w_800_h_500/v1481019868/DO_NOT_USE_DISCOVER_INDIA_EDITORIAL/Chopta_Blog1.jpg",
@@ -295,7 +312,10 @@
           },
           {
             "day": 2,
-            "activities": ["Sunrise at Golf Course", "Drive back to Delhi"]
+            "activities": [
+              "Sunrise at Golf Course",
+              "Drive back to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b96,000",
@@ -354,7 +374,9 @@
           },
           {
             "day": 2,
-            "activities": ["Visit local meadows & return Delhi"]
+            "activities": [
+              "Visit local meadows & return Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b95,000",
@@ -374,11 +396,17 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": ["Drive Delhi \u2192 Corbett", "Evening jeep safari"]
+            "activities": [
+              "Drive Delhi \u2192 Corbett",
+              "Evening jeep safari"
+            ]
           },
           {
             "day": 2,
-            "activities": ["Morning safari", "Birdwatching walk & return Delhi"]
+            "activities": [
+              "Morning safari",
+              "Birdwatching walk & return Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b98,000",
@@ -398,11 +426,17 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": ["Drive Delhi \u2192 Rajaji", "Evening sunset safari"]
+            "activities": [
+              "Drive Delhi \u2192 Rajaji",
+              "Evening sunset safari"
+            ]
           },
           {
             "day": 2,
-            "activities": ["Morning jungle safari", "Return to Delhi"]
+            "activities": [
+              "Morning jungle safari",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b97,000",
@@ -431,7 +465,9 @@
           },
           {
             "day": 2,
-            "activities": ["Short trek to Khaliya Top or local herbs farm"]
+            "activities": [
+              "Short trek to Khaliya Top or local herbs farm"
+            ]
           },
           {
             "day": 3,
@@ -465,7 +501,10 @@
           },
           {
             "day": 2,
-            "activities": ["Forest trails exploration", "Return to Delhi"]
+            "activities": [
+              "Forest trails exploration",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b95,000",
@@ -522,7 +561,9 @@
           },
           {
             "day": 2,
-            "activities": ["Forest exploration & return to Delhi"]
+            "activities": [
+              "Forest exploration & return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b95,500",
@@ -541,7 +582,6 @@
         "duration_days": 3,
         "duration_day_night": "6 nights / 7 days",
         "date": "July 24, Aug 12",
-
         "itinerary": [
           {
             "day": 1,
@@ -591,7 +631,10 @@
           },
           {
             "day": 2,
-            "activities": ["Mana village visit", "Drive back towards Delhi"]
+            "activities": [
+              "Mana village visit",
+              "Drive back towards Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b99,000",
@@ -620,11 +663,17 @@
           },
           {
             "day": 2,
-            "activities": ["Yamunotri trek and darshan", "Return to base"]
+            "activities": [
+              "Yamunotri trek and darshan",
+              "Return to base"
+            ]
           },
           {
             "day": 3,
-            "activities": ["Drive to Uttarkashi/Gangotri base", "Evening rest"]
+            "activities": [
+              "Drive to Uttarkashi/Gangotri base",
+              "Evening rest"
+            ]
           },
           {
             "day": 4,
@@ -668,7 +717,10 @@
           },
           {
             "day": 3,
-            "activities": ["Visit Hemkund Sahib", "Return trek to Govindghat"]
+            "activities": [
+              "Visit Hemkund Sahib",
+              "Return trek to Govindghat"
+            ]
           }
         ],
         "estimated_cost": "\u20b912,000",
@@ -702,7 +754,10 @@
           },
           {
             "day": 3,
-            "activities": ["Local sightseeing", "Return via Joshimath"]
+            "activities": [
+              "Local sightseeing",
+              "Return via Joshimath"
+            ]
           }
         ],
         "estimated_cost": "\u20b910,000",
@@ -729,7 +784,10 @@
           },
           {
             "day": 2,
-            "activities": ["Binsar Wildlife Sanctuary trek", "Return to Delhi"]
+            "activities": [
+              "Binsar Wildlife Sanctuary trek",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b96,000",
@@ -749,11 +807,17 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": ["Drive to Khajjiar", "Boating & lakeside stroll"]
+            "activities": [
+              "Drive to Khajjiar",
+              "Boating & lakeside stroll"
+            ]
           },
           {
             "day": 2,
-            "activities": ["Horse riding & paragliding", "Return to Delhi"]
+            "activities": [
+              "Horse riding & paragliding",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b97,000",
@@ -781,7 +845,10 @@
           },
           {
             "day": 2,
-            "activities": ["Deoban trek & Jungle camp", "Return to Delhi"]
+            "activities": [
+              "Deoban trek & Jungle camp",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b96,500",
@@ -808,7 +875,10 @@
           },
           {
             "day": 2,
-            "activities": ["Summit temple visit", "Descent & return to Delhi"]
+            "activities": [
+              "Summit temple visit",
+              "Descent & return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b95,500",
@@ -828,11 +898,17 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": ["Drive to Binsar", "Evening safari"]
+            "activities": [
+              "Drive to Binsar",
+              "Evening safari"
+            ]
           },
           {
             "day": 2,
-            "activities": ["Birdwatching & canopy walk", "Return to Delhi"]
+            "activities": [
+              "Birdwatching & canopy walk",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b96,500",
@@ -859,7 +935,10 @@
           },
           {
             "day": 2,
-            "activities": ["Sunrise by lake", "Return trek & drive to Delhi"]
+            "activities": [
+              "Sunrise by lake",
+              "Return trek & drive to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b95,200",
@@ -879,11 +958,17 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": ["Drive to Birahi", "Tribal culture walk & homestay"]
+            "activities": [
+              "Drive to Birahi",
+              "Tribal culture walk & homestay"
+            ]
           },
           {
             "day": 2,
-            "activities": ["Local weaving demo", "Return to Delhi"]
+            "activities": [
+              "Local weaving demo",
+              "Return to Delhi"
+            ]
           }
         ],
         "estimated_cost": "\u20b96,000",
@@ -903,15 +988,23 @@
         "itinerary": [
           {
             "day": 1,
-            "activities": ["Delhi \u2192 Uttarkashi \u2192 Deoban base", "Camp"]
+            "activities": [
+              "Delhi \u2192 Uttarkashi \u2192 Deoban base",
+              "Camp"
+            ]
           },
           {
             "day": 2,
-            "activities": ["Trek to Chanda Devi summit", "Camp"]
+            "activities": [
+              "Trek to Chanda Devi summit",
+              "Camp"
+            ]
           },
           {
             "day": 3,
-            "activities": ["Descent and return"]
+            "activities": [
+              "Descent and return"
+            ]
           }
         ],
         "estimated_cost": "\u20b98,000",
@@ -1125,7 +1218,10 @@
           },
           {
             "day": 3,
-            "activities": ["Breakfast in Chopta", "Return Delhi via Dehradun"]
+            "activities": [
+              "Breakfast in Chopta",
+              "Return Delhi via Dehradun"
+            ]
           }
         ],
         "estimated_cost": "₹6,800",
@@ -1339,7 +1435,10 @@
           },
           {
             "day": 3,
-            "activities": ["Breakfast in Chopta", "Return Delhi via Dehradun"]
+            "activities": [
+              "Breakfast in Chopta",
+              "Return Delhi via Dehradun"
+            ]
           }
         ],
         "estimated_cost": "₹6,800",

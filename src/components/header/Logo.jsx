@@ -7,7 +7,7 @@ const Logo = () => (
     <img
       src="/Group 427320963.svg"
       alt="capture a trip"
-      className="h-16 w-auto object-contain"
+      className="h-18 w-auto object-contain"
       draggable={false}
       fetchpriority="high"
       loading="eager"

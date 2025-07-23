@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const BookNowCard = ({
-  basePrice = 28999,
-  originalPrice = 30999,
+  estimatedcost = 28999,
+  originalPrice = 10000,
   discount = 2000,
   tripDates = ["26 Jul"],
   months = ["Jul", "Aug", "Sep"],
@@ -12,13 +12,13 @@ const BookNowCard = ({
   const [travellers, setTravellers] = useState(1);
 
   return (
-    <div className="p-6 rounded-2xl border shadow-lg font-parkinsans bg-white w-full max-w-xl mx-auto">
+    <div className="p-6 rounded-2xl h-[45vh]   border border-[#09090B]/30   shadow-xl font-parkinsans bg-white w-full max-w-xl mx-auto">
       <div className="text-gray-900 font-medium text-sm mb-2">
         Trip Starts From
       </div>
       <div className="flex items-end space-x-0 mb-3">
         <span className="text-[#F36F25] text-3xl font-medium">
-          ₹ {basePrice.toLocaleString()}
+          {estimatedcost.toLocaleString()}
         </span>
         <span className="line-through text-gray-400 text-md">
           ₹ {originalPrice.toLocaleString()}
@@ -33,7 +33,7 @@ const BookNowCard = ({
 
       {/* Trip Dates Dropdown */}
       <div className="mb-4">
-        <div className="font-semibold text-gray-800 flex  items-center mb-2">
+        <div className="font-semibold text-[#09090B] flex  items-center mb-2">
           <div className="flex items-center w-full justify-between">
             <span role="img" aria-label="calendar" className="">
               📅 Trip Dates
@@ -55,7 +55,7 @@ const BookNowCard = ({
         <div className="mt-2 text-gray-700 text-sm">
           {selectedDate}{" "}
           <span className="text-xs text-gray-500">
-            Starting ₹{basePrice}/Person
+            Starting {estimatedcost}/Person
           </span>
         </div>
       </div>
@@ -91,13 +91,11 @@ const BookNowCard = ({
         Send Enquiry
       </button>
 
-      <div className="flex  gap-2 mt-2">
-        <span className="text-gray-700 text-sm">Any Doubt?</span>
-        <button className="flex items-center px-3 py-1 bg-green-50 text-[#F36F25] border-[#F36F25] border rounded-lg font-medium hover:bg-green-100">
-          <svg width="18" height="18" fill="currentColor" className="mr-1">
-            <circle cx="9" cy="9" r="8.5" />
-            <path d="M5 7.5c.5-.6 2.1-1.2 4.6 1.3C12.9 11 11.5 13 10 13" />
-          </svg>
+      <div className="flex items-center  gap-2 mt-2">
+        <span className="text-[#09090B] text-[14px]  font-bold text-sm">Any Doubt?</span>
+        <button className="flex items-center px-3 py-2 bg-green-100  gap-3 rounded-full cursor-pointer font-medium hover:bg-green-50">
+
+          <img className="w-5 h-5" src="/whatsapp-color-svgrepo-com.svg" alt="" />
           WhatsApp
         </button>
       </div>

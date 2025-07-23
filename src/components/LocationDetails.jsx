@@ -6,9 +6,12 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import BookNowCard from "./Bookingcard";
+import ItineraryBreakdown from "./locationdetails/Itenary";
+import { DoorClosed, FolderClosedIcon, LucideSidebarClose, X } from "lucide-react";
 
 const LocationDetails = () => {
   const { id } = useParams();
+  const [Model, setModel] = useState(false)
   const location = Locations.trip_collection.trips.find(
     (loc) => loc.id === parseInt(id)
   );
@@ -21,16 +24,17 @@ const LocationDetails = () => {
     );
   }
 
-  const { name, images, itinerary, duration_days, estimated_cost, category } =
+  const { name, images, itinerary, description, date, duration_days, estimated_cost, category } =
     location;
+  console.log(itinerary)
   const [openDay, setOpenDay] = useState(null);
 
   return (
-    <div className="max-w-7xl pt-44 md:pt-32 mx-auto px-4 py-10">
+    <div className="max-w-7xl relative pt-28 md:pt-44 mx-auto px-4 py-10">
       {/* Title */}
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+      {/* <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6">
         {name}
-      </h1>
+      </h1> */}
 
       {/* Responsive Images Section */}
       <div className="mb-10">
@@ -53,7 +57,6 @@ const LocationDetails = () => {
             ))}
           </Swiper>
         </div>
-
         {/* Grid for large screens */}
         <div className="hidden lg:grid grid-cols-1 lg:grid-cols-4 gap-4">
           <div className="lg:col-span-2 row-span-2">
@@ -76,56 +79,48 @@ const LocationDetails = () => {
       </div>
 
       {/* Content Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Itinerary Accordion */}
-        <div className="md:col-span-2">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            Itinerary
-          </h2>
-          <div className="space-y-3">
-            {itinerary.map((day, i) => (
-              <div key={i} className="border border-gray-200 rounded-xl">
-                <button
-                  onClick={() => setOpenDay(openDay === i ? null : i)}
-                  className="w-full text-left px-4 py-3 font-medium text-gray-800 flex justify-between items-center"
-                >
-                  <span>Day {day.day}</span>
-                  <span className="text-xl">{openDay === i ? "−" : "+"}</span>
-                </button>
-                {openDay === i && (
-                  <div className="px-4 pb-4 text-gray-600 text-sm space-y-1">
-                    <ul className="list-disc list-inside">
-                      {day.activities.map((activity, j) => (
-                        <li key={j}>{activity}</li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
+      <div className="grid grid-cols-1 mt-10 md:grid-cols-3 gap-8">
+
+        <div className="md:col-span-2 ">
+          <h1 className="font-parkinsans text-[30px] mb-4 font-semibold text-[#09090B] mt-4"> About the {name} </h1>
+          <p className="font-parkinsans font-regular text-[#09090B
+]" >{description.slice(0, 198)}......</p>
+          <button onClick={() => setModel(true)} className="underline text-prime font-bold  cursor-pointer mt-4">Read more</button>
+          <ItineraryBreakdown itinerary={itinerary} />
         </div>
 
-        {/* Booking Sidebar */}
-        {/* <div className="p-6 border border-gray-200 rounded-2xl shadow-lg bg-white">
-          <div className="text-2xl font-bold text-gray-900 mb-1">
-            {estimated_cost}
+        <div className="md:col-span-1 mt-10">
+          <div className="md:sticky md:top-34">
+            <BookNowCard
+            date={date}
+            estimatedcost= {estimated_cost}
+            />
           </div>
-          <p className="text-gray-600 mb-2">
-            {duration_days} Days · Category: <span className="font-medium">{category}</span>
-          </p>
-
-          <div className="mt-6 flex flex-col gap-3">
-            <button className="bg-prime hover:bg-prime/90 text-white font-semibold py-2.5 rounded-xl transition duration-200">
-              Book Now
-            </button>
-            <button className="border border-prime text-prime font-semibold py-2.5 rounded-xl hover:bg-prime/10 transition duration-200">
-              Send Inquiry
-            </button>
-          </div>
-        </div> */}
-        <BookNowCard />
+        </div>
       </div>
+
+      {Model && (
+        <div
+          onClick={() => setModel(false)}
+          className="fixed inset-0 z-50 font-parkinsans flex items-center justify-center bg-black/50"
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="bg-white rounded-xl max-w-3xl w-full p-8 shadow-lg relative mx-4"
+          >
+            <div
+              onClick={() => setModel(false)}
+              className="absolute top-4 right-4 border-2 grid place-items-center rounded-full w-7 h-7 text-gray-600 hover:text-gray-900 text-2xl font-bold cursor-pointer"
+              aria-label="Close modal"
+            >
+              <X />
+            </div>
+            <h2 className="text-xl font-semibold mb-4">About the {name}</h2>
+            <p className="whitespace-pre-line text-gray-800">{description}</p>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 };
