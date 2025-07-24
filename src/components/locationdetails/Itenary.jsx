@@ -25,10 +25,10 @@ const ItineraryBreakdown = ({ itinerary }) => {
             <div className="flex items-center justify-between mb-4">
 
 
-                <h2 className="text-[30px] font-semibold">Itinerary Breakdown</h2>
+                <h2 className="md:text-[30px] text-[20px] font-semibold">Itinerary Breakdown</h2>
                 <button
                     type="button"
-                    className="border border-[#09090B] px-4 py-2 rounded-full flex items-center gap-2 font-regular hover:bg-gray-100"
+                    className="border border-[#09090B] px-5 py-2 text-sm  hidden rounded-full md:flex items-center gap-2 font-regular  hover:bg-gray-100"
                 // You can add your download functionality here
                 >
                     <svg width={20} height={20} fill="none" stroke="currentColor" strokeWidth="2">
@@ -54,10 +54,10 @@ const ItineraryBreakdown = ({ itinerary }) => {
                                     if (e.key === 'Enter' || e.key === ' ') toggleDay(i);
                                 }}
                             >
-                                <span className="bg-gray-100 border border-gray-200 rounded-full px-4 py-2 text-sm font-semibold text-gray-700 min-w-[70px] text-center">
+                                <span className="bg-gray-100 border border-gray-200 rounded-full md:px-4 md:py-2 text-sm font-semibold text-gray-700 min-w-[70px] text-center">
                                     Day {day.day}
                                 </span>
-                                <span className="text-lg font-medium text-gray-900">{day.title}</span>
+                                <span className="text-lg font-semibold text-gray-900">{day.title}</span>
                                 <span className="ml-auto text-gray-400">
                                     <ChevronDown open={isOpen} />
                                 </span>
@@ -65,7 +65,7 @@ const ItineraryBreakdown = ({ itinerary }) => {
 
                             {/* Show activities if open */}
                             {isOpen && day.activities && (
-                                <ul className="mt-3 ml-[94px] list-disc list-inside font-regular text-[#09090B
+                                <ul className="mt-4 leading-6 md:ml-[94px] list-disc md:list-inside font-medium text-[#09090B
 ] text-sm space-y-1">
                                     {day.activities.map((activity, idx) => (
                                         <li key={idx}>{activity}</li>
@@ -76,6 +76,20 @@ const ItineraryBreakdown = ({ itinerary }) => {
                     );
                 })}
             </div>
+            <div className="w-full grid place-items-center mt-10">
+                <button
+                    type="button"
+                    className="border border-[#09090B] px-4 py-2 text-sm md:hidden block  rounded-full flex items-center gap-2 font-regular  hover:bg-gray-100"
+                // You can add your download functionality here
+                >
+                    <svg width={20} height={20} fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx={10} cy={10} r={9} />
+                        <path d="M7 10l2 2 4-4" />
+                    </svg>
+                    Download Itinerary
+                </button>
+            </div>
+
         </div>
     );
 };

@@ -10,22 +10,55 @@
         "duration_days": 2,
         "duration_day_night": "6 nights / 7 days",
         "date": "July 24, Aug 12",
+        "description": "Experience the best of Uttarakhand with this Nainital and Jim Corbett itinerary. Spot wildlife during jeep safaris in Corbett National Park, relax in comfortable resorts, and explore the hill station charm of Nainital—from iconic lakes and trails to local markets. The journey includes pleasant drives, cultural temples, and memorable landscapes, making it perfect for adventure and nature lovers.",
         "itinerary": [
           {
             "day": 1,
+            "title": "Arrival & Transfer to Jim Corbett",
             "activities": [
-              "Depart Delhi early morning \u2192 reach by noon",
-              "Check-in and lunch",
-              "Boat ride on Naini Lake",
-              "Evening Mall Road & Naina Devi Temple visit"
+              "Arrive at Dehradun/Rishikesh/Haridwar railway station/airport.",
+              "Meet the representative and transfer to Corbett National Park (5–6 hours).",
+              "Check in at resort/hotel.",
+              "Evening leisure time or optional jungle activities."
             ]
           },
           {
             "day": 2,
+            "title": "Morning & Evening Jungle Safari in Corbett",
             "activities": [
-              "Cable car to Snow View Point",
-              "Explore Eco Cave Gardens",
-              "Return to Delhi by evening"
+              "Early morning jeep safari into Corbett National Park for wildlife spotting (tiger, elephant, deer, etc.).",
+              "Return to hotel for breakfast.",
+              "Afternoon at leisure or optional activities.",
+              "Evening jeep safari or free time.",
+              "Overnight stay in Jim Corbett."
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Transfer from Corbett to Nainital",
+            "activities": [
+              "Breakfast at hotel.",
+              "Drive to Nainital (3–4 hours).",
+              "Check in at hotel.",
+              "Evening walk at Mall Road or boat ride at Naini Lake."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Local Sightseeing in Nainital",
+            "activities": [
+              "Breakfast at hotel.",
+              "Visit Snow View Point, Naina Devi Temple, and Tiffin Top.",
+              "Enjoy a boat ride on Naini Lake.",
+              "Evening at leisure in the town."
+            ]
+          },
+          {
+            "day": 5,
+            "title": "Departure from Nainital",
+            "activities": [
+              "Breakfast at hotel.",
+              "Check out and departure for Dehradun/Rishikesh/Haridwar for onward journey."
             ]
           }
         ],
@@ -43,27 +76,34 @@
         "name": "Mussoorie",
         "category": "Popular Location",
         "duration_days": 2,
-        "duration_day_night": "6 nights / 7 days",
+        "duration_day_night": "1 night / 2 days",
         "date": "July 24, Aug 12",
+        "description": "Soak up the old-world charm of Mussoorie—explore colonial landmarks, waterfalls, and panoramic mountain views. This itinerary is designed for those who love nature trails and lively hill town vibes.",
+        "estimated_cost": "₹4,200",
         "itinerary": [
           {
             "day": 1,
+            "title": "Hill Town Arrival & Mall Road",
             "activities": [
-              "Morning drive from Delhi \u2192 Mussoorie",
-              "Stroll Mall Road & Gun Hill ride",
-              "Evening at Lal Tibba viewpoint"
+              "Reach Mussoorie by morning, check-in to hotel.",
+              "Begin sightseeing with Gun Hill via ropeway.",
+              "Stroll along Mall Road—enjoy cafes and colonial architecture.",
+              "Sightseeing at Christ Church and Company Garden.",
+              "Evening at Camel’s Back Road for sunset views."
             ]
           },
           {
             "day": 2,
+            "title": "Waterfalls & Landmarks",
             "activities": [
-              "Visit Kempty Falls",
-              "Camel\u2019s Back Road walk",
-              "Return to Delhi by night"
+              "Breakfast at hotel.",
+              "Excursion to Kempty Falls—enjoy the cascading water and scenery.",
+              "Short visit to Lal Tibba for panoramic Himalayan views.",
+              "Explore George Everest’s House or Jharipani Falls, time permitting.",
+              "Depart by evening."
             ]
           }
         ],
-        "estimated_cost": "\u20b95,800",
         "images": [
           "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1746526797mussorroe.jpg",
           "https://clubmahindra.gumlet.io/blog/media/section_images/shuttersto-65eea6c9f8abbd6.jpg?w=376&dpr=2.6",
@@ -79,33 +119,36 @@
         "duration_days": 3,
         "duration_day_night": "6 nights / 7 days",
         "date": "July 24, Aug 12",
+        "description": "Experience the thrill and tranquility of Rishikesh with this 2-day adventure itinerary. Discover white water rafting, serene yoga by the Ganges, sacred temples, and mesmerizing evening Ganga Aarti. Ideal for quick getaways that blend adventure, spirituality, and stunning Himalayan views.",
         "itinerary": [
           {
             "day": 1,
+            "title": "Arrival & Adventure Activities",
             "activities": [
-              "Depart Delhi \u2192 reach Rishikesh by afternoon",
-              "Check-in & evening Ganga Aarti at Triveni Ghat"
+              "Arrive in Rishikesh by morning.",
+              "Check-in to hotel/camp; freshen up and breakfast.",
+              "Go river rafting from Shivpuri/Marine Drive to Rishikesh (adventure grade rapids).",
+              "Try cliff jumping, body surfing, and beach volleyball.",
+              "Lunch at the camp/hotel.",
+              "Relax at the riverside or indulge in yoga/meditation.",
+              "Evening Ganga Aarti at Triveni Ghat.",
+              "Explore local cafes and the Laxman Jhula area."
             ]
           },
           {
             "day": 2,
+            "title": "Sightseeing & Departure",
             "activities": [
-              "Morning yoga session",
-              "River rafting (optional)",
-              "Cross Laxman & Ram Jhula",
-              "Evening caf\u00e9 visit in Tapovan"
-            ]
-          },
-          {
-            "day": 3,
-            "activities": [
-              "Visit Beatles Ashram",
-              "Beach visit & local shopping",
-              "Return to Delhi late evening"
+              "Morning yoga/meditation session by the Ganga.",
+              "Breakfast at hotel/camp.",
+              "Visit iconic attractions: Laxman Jhula, Ram Jhula, Beatles Ashram.",
+              "Shopping at Rishikesh markets for souvenirs.",
+              "Lunch at a local café.",
+              "Depart for your onward journey."
             ]
           }
         ],
-        "estimated_cost": "\u20b96,500",
+        "estimated_cost": "₹3,800",
         "images": [
           "https://s7ap1.scene7.com/is/image/incredibleindia/1-triveni-ghat-rishikesh-uttarakhand-2-city-hero?qlt=82&ts=1726646286991",
           "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trayambakeshwar_Temple_VK.jpg/1200px-Trayambakeshwar_Temple_VK.jpg",
@@ -119,27 +162,35 @@
         "name": "Haridwar",
         "category": "Popular Location",
         "duration_days": 2,
-        "duration_day_night": "6 nights / 7 days",
+        "duration_day_night": "1 night / 2 days",
         "date": "July 24, Aug 12",
+        "description": "Immerse yourself in the spiritual aura of Haridwar. Witness sunrise prayers, take a holy dip in the Ganga, and experience the iconic Ganga Aarti—blending devotion, tradition, and the bustle of temple town life.",
         "itinerary": [
           {
             "day": 1,
+            "title": "Temple Town Arrival",
             "activities": [
-              "Drive Delhi \u2192 Haridwar",
-              "Check-in & temple visits (Mansa Devi, Chandi Devi)",
-              "Evening Ganga Aarti at Har-Ki-Pauri"
+              "Arrive in Haridwar by morning.",
+              "Visit Har Ki Pauri for a holy dip in the Ganga.",
+              "Breakfast at a local eatery.",
+              "Walk through the bustling markets and temples (Mansa Devi by cable car, Chandi Devi).",
+              "Enjoy street food and local sweets.",
+              "Witness evening Ganga Aarti at Har Ki Pauri."
             ]
           },
           {
             "day": 2,
+            "title": "Spiritual & Local Exploration",
             "activities": [
-              "Boat ride on Ganges",
-              "Local market exploration",
-              "Return to Delhi evening"
+              "Early morning prayers or yoga by the river.",
+              "Breakfast at hotel / market.",
+              "Visit Bharat Mata temple and Daksha Mahadev temple.",
+              "Explore Sapt Rishi Ashram or Kali Temple.",
+              "Depart after lunch or in the evening."
             ]
           }
         ],
-        "estimated_cost": "\u20b94,900",
+        "estimated_cost": "₹3,000",
         "images": [
           "https://clubmahindra.gumlet.io/blog/images/haridwar-image.jpg?w=376&dpr=2.6",
           "https://cdn.prod.website-files.com/6364d88dd010ce5c6f8aa8fc/6780d389efdb44cce38f313c_Best_Place_to_Stay_in_Haridwar3_88e480429a.webp",
@@ -153,26 +204,35 @@
         "name": "Dehradun",
         "category": "Popular Location",
         "duration_days": 2,
-        "duration_day_night": "6 nights / 7 days",
+        "duration_day_night": "1 night / 2 days",
         "date": "July 24, Aug 12",
+        "description": "Discover Dehradun's green charm with a quick trip to its famous caves, monasteries, and vibrant markets. This itinerary combines nature, history, and local flavors for an ideal weekend escape.",
         "itinerary": [
           {
             "day": 1,
+            "title": "Arrival and Local Sights",
             "activities": [
-              "Transfer Delhi \u2192 Dehradun",
-              "Visit Robber\u2019s Cave & Buddha Temple",
-              "Evening at Paltan Bazaar"
+              "Arrive in Dehradun by morning.",
+              "Visit Robber's Cave (Guchhupani) for a walk in the cool streams.",
+              "Explore Mindrolling Monastery—marvel at the stupa and gardens.",
+              "Lunch at a local restaurant/café.",
+              "Stroll through Paltan Bazaar for local shopping.",
+              "Evening walk and sunset at Sahastradhara."
             ]
           },
           {
             "day": 2,
+            "title": "Nature & Culture",
             "activities": [
-              "Explore Sahastradhara & FRI",
-              "Shopping and return to Delhi"
+              "Breakfast at hotel.",
+              "Morning at Forest Research Institute (FRI) for architecture and museum tour.",
+              "Visit Tapkeshwar Temple along the riverside.",
+              "Relax at Lachhiwala Nature Park—or enjoy a short hike nearby.",
+              "Depart by afternoon/evening."
             ]
           }
         ],
-        "estimated_cost": "\u20b96,800",
+        "estimated_cost": "₹3,600",
         "images": [
           "https://www.jaypeehotels.com/blog/wp-content/uploads/2024/09/Blog-2-scaled.jpg",
           "https://s3.india.com/wp-content/uploads/2024/03/Feature-Image_-Discovering-Dehradun.jpg##image/jpg",
@@ -355,37 +415,6 @@
           "https://discoverwithdheeraj.com/wp-content/uploads/2014/11/Kausani-Snowfall.jpg",
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB-oGuRJGy8fzWhE9cT3ZzXJKmiY3mUFMWVg&s",
           "https://gokeys.in/wp-content/uploads/2022/03/KAUSANI.jpg"
-        ]
-      },
-      {
-        "id": 11,
-        "name": "Chopta",
-        "category": "Popular Location",
-        "duration_days": 2,
-        "duration_day_night": "6 nights / 7 days",
-        "date": "July 24, Aug 12",
-        "itinerary": [
-          {
-            "day": 1,
-            "activities": [
-              "Delhi \u2192 Chopta",
-              "Deoria Tal trek & lake exploration"
-            ]
-          },
-          {
-            "day": 2,
-            "activities": [
-              "Visit local meadows & return Delhi"
-            ]
-          }
-        ],
-        "estimated_cost": "\u20b95,000",
-        "images": [
-          "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_logo1745916342a5160ff72b8591a242f1fe76dc5fe7f3.jpg",
-          "https://www.manchalamushafir.com/wp-content/uploads/2023/10/chopta-image.jpg",
-          "https://triprega.com/images/tours/auli-hill-station.jpg",
-          "https://www.chardhamtour.in/wp-content/uploads/2014/03/Chopta-during-april-month.webp",
-          "https://www.chardhamtour.in/wp-content/uploads/2014/03/Chopta-during-april-month.webp"
         ]
       },
       {
@@ -579,33 +608,69 @@
         "id": 18,
         "name": "Kedarnath",
         "category": "Popular Location",
-        "duration_days": 3,
-        "duration_day_night": "6 nights / 7 days",
-        "date": "July 24, Aug 12",
+        "duration_days": 6,
+        "duration_day_night": "5 nights / 6 days",
+        "dates": [],
+        "description": "Embark on a spiritual and adventurous journey from Rishikesh to Kedarnath. This pilgrimage trek combines the sacred vibes of the Himalayas with breathtaking landscapes, covering holy temples, mountain trails, and serene ashrams. The itinerary includes a mix of trekking, sightseeing, and relaxation, making it suitable for devout travelers and nature lovers alike.",
+        "estimated_cost": "₹11,000",
         "itinerary": [
           {
             "day": 1,
+            "title": "Arrival & Rishikesh Exploration",
             "activities": [
-              "Drive Delhi \u2192 Haridwar \u2192 Gaurikund",
-              "Evening rest in Gaurikund"
+              "Arrive at Rishikesh and check into the hotel.",
+              "Visit local attractions like Laxman Jhula and Ram Jhula.",
+              "Attend Ganga Aarti in the evening at Triveni Ghat.",
+              "Overnight stay in Rishikesh."
             ]
           },
           {
             "day": 2,
+            "title": "Drive to Sonprayag and Trek to Gaurikund",
             "activities": [
-              "Trek Gaurikund \u2192 Kedarnath Temple",
-              "Evening aarti"
+              "After early breakfast, drive from Rishikesh to Sonprayag (approx. 8–9 hours).",
+              "Reach Sonprayag and proceed by short trek or pony ride to Gaurikund.",
+              "Check in at guesthouse; rest and prepare for the Kedarnath trek.",
+              "Overnight stay at Gaurikund."
             ]
           },
           {
             "day": 3,
+            "title": "Trek to Kedarnath Temple",
             "activities": [
-              "Return trek to Gaurikund",
-              "Drive back towards Delhi"
+              "Begin the 16 km trek from Gaurikund to Kedarnath.",
+              "Enjoy the stunning Himalayan scenery en route.",
+              "Visit Kedarnath Temple and participate in prayers.",
+              "Overnight stay near Kedarnath Temple."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Explore Kedarnath & Return Trek",
+            "activities": [
+              "Morning visit to local sights like Bhairavnath Temple.",
+              "Begin descent trek back to Gaurikund.",
+              "Overnight stay at Gaurikund."
+            ]
+          },
+          {
+            "day": 5,
+            "title": "Drive Back to Rishikesh",
+            "activities": [
+              "Drive from Gaurikund/Sonprayag back to Rishikesh.",
+              "Relax and enjoy evening at leisure.",
+              "Overnight stay in Rishikesh."
+            ]
+          },
+          {
+            "day": 6,
+            "title": "Departure",
+            "activities": [
+              "Breakfast at hotel.",
+              "Check-out and onward journey."
             ]
           }
         ],
-        "estimated_cost": "\u20b910,000",
         "images": [
           "https://alotusinthemud.com/wp-content/uploads/2024/02/lead-pic-temple-and-snow-mountains.jpg",
           "https://uttarakhandtourism.gov.in/assets/media/UTDB_media_1736325021Kedarnath_Temple.jpg",
@@ -699,27 +764,49 @@
         "duration_days": 3,
         "duration_day_night": "6 nights / 7 days",
         "date": "July 24, Aug 12",
+        "description": "Experience the magic of the Valley of Flowers, a living rainbow of over 500 species of rare Himalayan flowers. This beginner-friendly trek includes stays in cozy lodges, guided trails through lush valleys, reaching the sacred Hemkund Sahib at 14,100 ft. Explore the spiritual and natural highlights with expert guides in a safe, structured, and unforgettable adventure.",
         "itinerary": [
           {
             "day": 1,
+            "title": "Arrival at Rishikesh and Travel to Joshimath",
             "activities": [
-              "Delhi \u2192 Joshimath \u2192 Govindghat",
-              "Evening rest"
+              "Arrive at Rishikesh and settle into the spiritual vibe.",
+              "Drive to Joshimath, visit Narasimha Temple, and prepare for the trek."
             ]
           },
           {
             "day": 2,
+            "title": "Drive to Govindghat and Trek to Ghangaria",
             "activities": [
-              "Trek to Valley of Flowers",
-              "Floral meadow time",
-              "Camp at Ghangaria"
+              "Drive to Govindghat, the trek starting point.",
+              "Trek from Govindghat to Pulna, then to Ghangaria.",
+              "Enjoy scenic trails and natural beauty during the trek."
             ]
           },
           {
             "day": 3,
+            "title": "Explore Valley of Flowers",
             "activities": [
-              "Visit Hemkund Sahib",
-              "Return trek to Govindghat"
+              "Trek through the blooming Valley of Flowers National Park.",
+              "Experience flora, fauna, and breathtaking scenery.",
+              "Return to Ghangaria for overnight stay."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Trek to Hemkund Sahib",
+            "activities": [
+              "Trek to the sacred Hemkund Sahib at 14,100 ft.",
+              "Experience the serene glacial lake and Gurudwara.",
+              "Return to Ghangaria for overnight stay."
+            ]
+          },
+          {
+            "day": 5,
+            "title": "Return to Rishikesh",
+            "activities": [
+              "Trek back to Govindghat.",
+              "Drive to Rishikesh or onward destination."
             ]
           }
         ],

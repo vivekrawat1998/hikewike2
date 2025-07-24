@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useMediaQuery } from 'react-responsive';
 import { useParams } from "react-router-dom";
 import Locations from "../components/utils/Locationss.json";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,6 +9,7 @@ import "swiper/css/pagination";
 import BookNowCard from "./Bookingcard";
 import ItineraryBreakdown from "./locationdetails/Itenary";
 import { DoorClosed, FolderClosedIcon, LucideSidebarClose, X } from "lucide-react";
+import MobileBooknow from "./MobileBooknow";
 
 const LocationDetails = () => {
   const { id } = useParams();
@@ -15,7 +17,7 @@ const LocationDetails = () => {
   const location = Locations.trip_collection.trips.find(
     (loc) => loc.id === parseInt(id)
   );
-
+  const isMobile = useMediaQuery({ maxWidth: 767 });
   if (!location) {
     return (
       <p className="text-center text-red-600 text-xl mt-10">
@@ -26,7 +28,6 @@ const LocationDetails = () => {
 
   const { name, images, itinerary, description, date, duration_days, estimated_cost, category } =
     location;
-  console.log(itinerary)
   const [openDay, setOpenDay] = useState(null);
 
   return (
@@ -88,25 +89,34 @@ const LocationDetails = () => {
           <button onClick={() => setModel(true)} className="underline text-prime font-bold  cursor-pointer mt-4">Read more</button>
           <ItineraryBreakdown itinerary={itinerary} />
         </div>
+        {
+          isMobile ? (
+            <div className="fixed w-full bottom-0 left-0 z-50">
+              <MobileBooknow date={date}
+                estimatedcost={estimated_cost} />
+            </div>
+          ) : (
+            <div className="md:col-span-1 mt-10">
+              <div className="md:sticky md:top-34">
+                <BookNowCard
+                  date={date}
+                  estimatedcost={estimated_cost}
+                />
+              </div>
+            </div>
+          )
+        }
 
-        <div className="md:col-span-1 mt-10">
-          <div className="md:sticky md:top-34">
-            <BookNowCard
-            date={date}
-            estimatedcost= {estimated_cost}
-            />
-          </div>
-        </div>
       </div>
 
       {Model && (
         <div
           onClick={() => setModel(false)}
-          className="fixed inset-0 z-50 font-parkinsans flex items-center justify-center bg-black/50"
+          className="fixed inset-0 z-50  font-parkinsans flex items-center justify-center bg-black/50"
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-white rounded-xl max-w-3xl w-full p-8 shadow-lg relative mx-4"
+            className="bg-white rounded-xl max-w-3xl h-[60vh] overflow-y-auto w-full p-8 shadow-lg relative mx-4"
           >
             <div
               onClick={() => setModel(false)}

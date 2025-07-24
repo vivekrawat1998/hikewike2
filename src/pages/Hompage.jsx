@@ -10,6 +10,7 @@ import OffbeatTrek from "../components/popularlocation/OffbeatTrek";
 import CoorsparateTrips from "../components/popularlocation/CoorparateTrips";
 import FirstBanner from "../components/banner/FirstBanner";
 import ReasonsToTravel from "../components/WhyHikewike";
+import Engages from "../components/footer/Engagenment";
 
 const Hompage = () => {
   return (
@@ -24,6 +25,8 @@ const Hompage = () => {
         <OffbeatTrek />
         <CoorsparateTrips />
         <ReasonsToTravel />
+
+        {/* <Engages /> */}
       </div>
     </Suspense>
   );
