@@ -83,7 +83,7 @@ export const navLinks = [
         <img className="w-5 h-5" src="/whatsapp-color-svgrepo-com.svg" alt="" />
       </span>
     ),
-    to: "https://wa.me/918287636079",
+    to: "https://wa.me/9557275467",
     external: true,
   },
 ];

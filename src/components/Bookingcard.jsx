@@ -12,7 +12,7 @@ const BookNowCard = ({
   const [travellers, setTravellers] = useState(1);
 
   return (
-    <div className="p-6 rounded-2xl h-[45vh]   border border-[#09090B]/30   shadow-xl font-parkinsans bg-white w-full max-w-xl mx-auto">
+    <div className="p-6 rounded-2xl    border border-[#09090B]/30   shadow-xl font-parkinsans bg-white w-full max-w-xl mx-auto">
       <div className="text-gray-900 font-medium text-sm mb-2">
         Trip Starts From
       </div>

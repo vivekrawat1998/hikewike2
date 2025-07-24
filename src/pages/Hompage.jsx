@@ -11,6 +11,9 @@ import CoorsparateTrips from "../components/popularlocation/CoorparateTrips";
 import FirstBanner from "../components/banner/FirstBanner";
 import ReasonsToTravel from "../components/WhyHikewike";
 import Engages from "../components/footer/Engagenment";
+import Instavideos from "../components/instagramshorts/Instavideos";
+import TestimonialsSection from "../components/Testimonials/Testimonialssection";
+import FAQSection from "../components/faq/FaqSection";
 
 const Hompage = () => {
   return (
@@ -24,7 +27,10 @@ const Hompage = () => {
         {/* <Wildlife /> */}
         <OffbeatTrek />
         <CoorsparateTrips />
+        <Instavideos />
         <ReasonsToTravel />
+        <TestimonialsSection />    
+        <FAQSection />   
 
         {/* <Engages /> */}
       </div>

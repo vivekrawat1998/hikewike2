@@ -1,12 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-import React from "react";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
+  const isInitialMount = useRef(true);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (isInitialMount.current) {
+      window.scrollTo(0, 0);
+      isInitialMount.current = false;
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   }, [pathname]);
 
   return null;

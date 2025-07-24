@@ -55,7 +55,7 @@ const ItineraryBreakdown = ({ itinerary }) => {
                                 }}
                             >
                                 <div className="flex flex-col gap-3">
-                                    <span className="bg-gray-100 border border-gray-200 rounded-full md:px-4 md:py-2 text-sm font-semibold text-gray-700 max-w-[70px] text-center">
+                                    <span className="bg-gray-100 border border-gray-200 rounded-full md:px-4 md:py-2 text-sm font-semibold text-gray-700 w-[70px] md:w-[100px] text-center">
                                         Day {day.day}
                                     </span>
                                     <span className="text-lg font-semibold text-gray-900">{day.title}</span>
@@ -67,7 +67,7 @@ const ItineraryBreakdown = ({ itinerary }) => {
 
                             {/* Show activities if open */}
                             {isOpen && day.activities && (
-                                <ul className="mt-4 leading-6 md:ml-[94px] list-disc ml-3 md:list-inside font-medium text-[#09090B
+                                <ul className="mt-4 leading-6 md:ml-[20px] list-disc md:ml-0 ml-3 md:list-inside font-medium text-[#09090B
 ] text-sm space-y-1">
                                     {day.activities.map((activity, idx) => (
                                         <li key={idx}>{activity}</li>
