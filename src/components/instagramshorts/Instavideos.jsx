@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { FaVolumeMute, FaVolumeUp } from 'react-icons/fa';
 
 const VIDEO_FILES = [
     "https://res.cloudinary.com/dtlbe7orb/video/upload/v1753340811/y2mate.gg_-_Escape_to_Rooftop_Cottages_just_40_minutes_from_Nainital_w_HD_video_z8fnir.mp4",
@@ -47,24 +48,18 @@ const VideoCard = ({ src }) => {
             {/* Mute/Unmute Button */}
             <button
                 onClick={handleToggleSound}
-                className="absolute bottom-3 right-3 px-2 py-1 rounded-full bg-black/70 text-white text-xs flex items-center shadow focus:outline-none focus:ring ring-yellow-300"
+                className="absolute bottom-3 right-3 cursor-pointer px-2 py-2 rounded-full bg-black/70 text-white text-xs flex items-center shadow "
                 tabIndex={0}
+                defaultValue="false"
                 aria-label={muted ? "Unmute video" : "Mute video"}
             >
                 {muted ? (
-                    // Muted icon
-                    <svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
-                        <path d="M9 9L5 13H2v-2h3l4-4V4a1 1 0 0 1 1-1h.01c.53 0 .99.44.99.99V7"></path>
-                        <line x1="19" y1="5" x2="5" y2="19" />
-                    </svg>
+                   <FaVolumeMute/>
                 ) : (
                     // Sound on icon
-                    <svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">
-                        <path d="M9 9L5 13H2v-2h3l4-4V4a1 1 0 0 1 1-1h.01c.53 0 .99.44.99.99V7"></path>
-                        <path d="M19 12a7 7 0 0 0-7-7v2a5 5 0 0 1 5 5h2z"></path>
-                    </svg>
+                 <FaVolumeUp/>
                 )}
-                <span className="ml-1">{muted ? "Sound ON" : "Mute"}</span>
+                {/* <span className="ml-1">{muted ? "Sound ON" : "Mute"}</span> */}
             </button>
         </div>
     );
